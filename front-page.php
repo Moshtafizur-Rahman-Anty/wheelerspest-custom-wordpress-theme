@@ -41,9 +41,6 @@
             </div>
         </div>
 
-
-
-
         <div class="col-sm-12 banner_hme_single">
             <div class="col-sm-12 banner_hme_image">
                 <?php
@@ -116,62 +113,65 @@
 
 
 
-
-
-<div class="backgroundoverall">
-    <!--Bannerbelow-->
-    <div class="bannerbelow_wrapper">
-        <div class="col-sm-12 bannerbelow_hle">
-            <div class="container">
-                <div class="col-sm-12 bannerbelow_firstblck">
-                    <div class="col-sm-4 bannerbelow_single">
-                        <div class="bannerbelow_single_inner">
-                            <span>
-                                <img height="67" width="74" src="assets/css/images/home/bannerblow-icon1.webp">
-                            </span>
-                            <strong>Inspection and Assessment </strong>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 bannerbelow_single">
-                        <div class="bannerbelow_single_inner">
-                            <span>
-                                <img height="65" width="57" src="assets/css/images/home/bannerblow-icon2.webp">
-                            </span>
-                            <strong>Customized Treatment &amp;Implementation</strong>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 bannerbelow_single">
-                        <div class="bannerbelow_single_inner">
-                            <span>
-                                <img height="67" width="66" src="assets/css/images/home/bannerblow-icon3.webp">
-                            </span>
-                            <strong>Follow-Up And Prevention </strong>
-                        </div>
+<!--Bannerbelow-->
+<div class="bannerbelow_wrapper">
+    <div class="col-sm-12 bannerbelow_hle">
+        <div class="container">
+            <div class="col-sm-12 bannerbelow_firstblck">
+                <div class="col-sm-4 bannerbelow_single">
+                    <div class="bannerbelow_single_inner">
+                        <span class="icon-wrap">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </span>
+                        <strong>Inspection and Assessment</strong>
                     </div>
                 </div>
-                <div class="col-sm-12 bannerbelow_secondblck">
-                    <div class="col-sm-4 bannerbelow_secondsingle">
-                        <div class="bannerbelow_secondsingle_inner">
-                            <span>1</span>
-                            <p>Our certified professionals conduct a thorough inspection of your property to identify the type of the pest infestation.</p>
-                        </div>
+                <div class="col-sm-4 bannerbelow_single">
+                    <div class="bannerbelow_single_inner">
+                        <span class="icon-wrap">
+                            <i class="fa fa-wrench" aria-hidden="true"></i>
+                        </span>
+                        <strong>Customized Treatment &amp; Implementation</strong>
                     </div>
-                    <div class="col-sm-4 bannerbelow_secondsingle">
-                        <div class="bannerbelow_secondsingle_inner">
-                            <span>2</span>
-                            <p>We create and implement a tailored treatment plan using safe and effective methods to target and eliminate pests.</p>
-                        </div>
+                </div>
+                <div class="col-sm-4 bannerbelow_single">
+                    <div class="bannerbelow_single_inner">
+                        <span class="icon-wrap">
+                            <i class="fa fa-shield" aria-hidden="true"></i>
+                        </span>
+                        <strong>Follow-Up And Prevention</strong>
                     </div>
-                    <div class="col-sm-4 bannerbelow_secondsingle">
-                        <div class="bannerbelow_secondsingle_inner">
-                            <span>3</span>
-                            <p>We provide follow-up visits to ensure complete eradication of the pests and prevent future infestations.</p>
-                        </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 bannerbelow_secondblck">
+                <div class="col-sm-4 bannerbelow_secondsingle">
+                    <div class="bannerbelow_secondsingle_inner">
+                        <span>1</span>
+                        <p>Our certified professionals conduct a thorough inspection of your property to identify the type of the pest infestation.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 bannerbelow_secondsingle">
+                    <div class="bannerbelow_secondsingle_inner">
+                        <span>2</span>
+                        <p>We create and implement a tailored treatment plan using safe and effective methods to target and eliminate pests.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 bannerbelow_secondsingle">
+                    <div class="bannerbelow_secondsingle_inner">
+                        <span>3</span>
+                        <p>We provide follow-up visits to ensure complete eradication of the pests and prevent future infestations.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
+
+
+
+
+
     <!--professional-->
     <div class="professional_hme" data-aos="fade-up">
         <div class="col-sm-12 professional_hme_inner">
@@ -197,6 +197,8 @@
             </div>
         </div>
     </div>
+
+
     <!--service-->
     <div class="service_hme_wrapper" data-aos="fade-up">
         <div class="col-sm-12 service_hme_hle">
@@ -205,202 +207,49 @@
                     <h2>CHOOSE THE SERVICE THAT WORKS FOR YOU!</h2>
                 </div>
                 <div class="col-sm-12 service_hme_slic">
-                    <div class="col-sm-3 service_hme_single" data-aos="zoom-in">
-                        <div class="service_hme_single_inner">
-                            <a href="https://wheelerspestcontrol.com/bee-removal">
-                                <div class="service_hme_single_image">
-                                    <img width="318" height="565" src="https://wheelerspestcontrol.com/images/page/image/1724928132bee1.webp" alt="Bee Removal">
-                                </div>
-                            </a>
-                            <div class="service_hme_single_content">
-                                <span>
-                                    <img width="90" height="90" src="https://wheelerspestcontrol.com/images/page/icon/1725161591icon-bee.webp" alt="Bee Removal">
-                                </span>
-                                <p>Bee Removal</p>
-                            </div>
-                            <div class="service_hme_single_another">
-                                <span>
-                                    <img width="40" height="40" src="https://wheelerspestcontrol.com/images/page/icon/1725161591icon-bee.webp" alt="Bee Removal">
-                                </span>
-                                <h4>
-                                    <a href="https://wheelerspestcontrol.com/bee-removal">Bee Removal</a>
-                                </h4>
-                                <p>Bees are vital to our ecosystem, but when they invade your home or yard, they can quickly pose a real danger. Whether it &#39;s a buzzing hive in your attic or &#8230;</p>
-                            </div>
+
+    <?php
+    $services = new WP_Query(array(
+        'post_type' => 'services',
+        'posts_per_page' => 8
+    ));
+    if ($services->have_posts()):
+        while ($services->have_posts()): $services->the_post(); ?>
+            <div class="col-sm-3 service_hme_single" data-aos="zoom-in">
+                <div class="service_hme_single_inner">
+                    <a href="<?php the_permalink(); ?>">
+                        <div class="service_hme_single_image">
+                            <?php the_post_thumbnail('full', array('width' => 318, 'height' => 565)); ?>
                         </div>
+                    </a>
+                    <div class="service_hme_single_content">
+                        <p><?php the_title(); ?></p>
                     </div>
-                    <div class="col-sm-3 service_hme_single" data-aos="zoom-in">
-                        <div class="service_hme_single_inner">
-                            <a href="https://wheelerspestcontrol.com/spiders-control">
-                                <div class="service_hme_single_image">
-                                    <img width="318" height="565" src="https://wheelerspestcontrol.com/images/page/image/1725060716spider-removal-control.webp" alt="Spiders">
-                                </div>
-                            </a>
-                            <div class="service_hme_single_content">
-                                <span>
-                                    <img width="90" height="90" src="https://wheelerspestcontrol.com/images/page/icon/1725060996icon-spider.webp" alt="Spiders">
-                                </span>
-                                <p>Spiders</p>
-                            </div>
-                            <div class="service_hme_single_another">
-                                <span>
-                                    <img width="40" height="40" src="https://wheelerspestcontrol.com/images/page/icon/1725060996icon-spider.webp" alt="Spiders">
-                                </span>
-                                <h4>
-                                    <a href="https://wheelerspestcontrol.com/spiders-control">Spiders</a>
-                                </h4>
-                                <p>People fear or dislike spiders but, for the most part, spiders are beneficial because of their role as predators of insects and other arthropods, and most of them cannot harm &#8230;</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 service_hme_single" data-aos="zoom-in">
-                        <div class="service_hme_single_inner">
-                            <a href="https://wheelerspestcontrol.com/ants-removal-and-treatment">
-                                <div class="service_hme_single_image">
-                                    <img width="318" height="565" src="https://wheelerspestcontrol.com/images/page/image/1725052249ants-removal.webp" alt="Ants">
-                                </div>
-                            </a>
-                            <div class="service_hme_single_content">
-                                <span>
-                                    <img width="90" height="90" src="https://wheelerspestcontrol.com/images/page/icon/1725052113icon-ants.webp" alt="Ants">
-                                </span>
-                                <p>Ants</p>
-                            </div>
-                            <div class="service_hme_single_another">
-                                <span>
-                                    <img width="40" height="40" src="https://wheelerspestcontrol.com/images/page/icon/1725052113icon-ants.webp" alt="Ants">
-                                </span>
-                                <h4>
-                                    <a href="https://wheelerspestcontrol.com/ants-removal-and-treatment">Ants</a>
-                                </h4>
-                                <p>Have you found ants trailing through your kitchen or nesting in your walls? The good news is you don &rsquo;t have to live with these persistent pests. Whether you &rsquo;re dealing with &#8230;</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 service_hme_single" data-aos="zoom-in">
-                        <div class="service_hme_single_inner">
-                            <a href="https://wheelerspestcontrol.com/rat-mouse-extermination">
-                                <div class="service_hme_single_image">
-                                    <img width="318" height="565" src="https://wheelerspestcontrol.com/images/page/image/1725452866pic-32.webp" alt="Rat & Mice">
-                                </div>
-                            </a>
-                            <div class="service_hme_single_content">
-                                <span>
-                                    <img width="90" height="90" src="https://wheelerspestcontrol.com/images/page/icon/1725038375mouse-icon-3.webp" alt="Rat & Mice">
-                                </span>
-                                <p>Rat & Mice</p>
-                            </div>
-                            <div class="service_hme_single_another">
-                                <span>
-                                    <img width="40" height="40" src="https://wheelerspestcontrol.com/images/page/icon/1725038375mouse-icon-3.webp" alt="Rat & Mice">
-                                </span>
-                                <h4>
-                                    <a href="https://wheelerspestcontrol.com/rat-mouse-extermination">Rat & Mice</a>
-                                </h4>
-                                <p>Rats and mice might be small, but the problems they create can be enormous. These unwelcome guests can turn your cozy home into a nightmare if left unchecked. If you &#39;ve &#8230;</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 service_hme_single" data-aos="zoom-in">
-                        <div class="service_hme_single_inner">
-                            <a href="https://wheelerspestcontrol.com/gopher-control">
-                                <div class="service_hme_single_image">
-                                    <img width="318" height="565" src="https://wheelerspestcontrol.com/images/page/image/1725452250pic-19.webp" alt="Gophers">
-                                </div>
-                            </a>
-                            <div class="service_hme_single_content">
-                                <span>
-                                    <img width="90" height="90" src="https://wheelerspestcontrol.com/images/page/icon/1725161971icon-gophers.webp" alt="Gophers">
-                                </span>
-                                <p>Gophers</p>
-                            </div>
-                            <div class="service_hme_single_another">
-                                <span>
-                                    <img width="40" height="40" src="https://wheelerspestcontrol.com/images/page/icon/1725161971icon-gophers.webp" alt="Gophers">
-                                </span>
-                                <h4>
-                                    <a href="https://wheelerspestcontrol.com/gopher-control">Gophers</a>
-                                </h4>
-                                <p>Find gopher control and removal services in Southern California. Ensure your foundation and yard are safe from gophers. Call us now! One of the most frustrating and persistent challenges homeowners &#8230;</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 service_hme_single" data-aos="zoom-in">
-                        <div class="service_hme_single_inner">
-                            <a href="https://wheelerspestcontrol.com/home-pest-control">
-                                <div class="service_hme_single_image">
-                                    <img width="318" height="565" src="https://wheelerspestcontrol.com/images/page/image/1724928472pest1.webp" alt="Pest Control">
-                                </div>
-                            </a>
-                            <div class="service_hme_single_content">
-                                <span>
-                                    <img width="90" height="90" src="https://wheelerspestcontrol.com/assets/css/images/home/serviceicon-white1.webp" alt="Pest Control">
-                                </span>
-                                <p>Pest Control</p>
-                            </div>
-                            <div class="service_hme_single_another">
-                                <span>
-                                    <img width="40" height="40" src="https://wheelerspestcontrol.com/assets/css/images/home/serviceicon-white1.webp" alt="Pest Control">
-                                </span>
-                                <h4>
-                                    <a href="https://wheelerspestcontrol.com/home-pest-control">Pest Control</a>
-                                </h4>
-                                <p>Whether you &rsquo;re struggling with the signs of bed bugs or hearing the scurry of rodents in the attic, pests have a knack for invading where they &rsquo;re least wanted. When &#8230;</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 service_hme_single" data-aos="zoom-in">
-                        <div class="service_hme_single_inner">
-                            <a href="https://wheelerspestcontrol.com/squirrel-control">
-                                <div class="service_hme_single_image">
-                                    <img width="318" height="565" src="https://wheelerspestcontrol.com/images/page/image/1725037495squirrel-3.webp" alt="Squirrel">
-                                </div>
-                            </a>
-                            <div class="service_hme_single_content">
-                                <span>
-                                    <img width="90" height="90" src="https://wheelerspestcontrol.com/images/page/icon/1725043679squirrel-icon.webp" alt="Squirrel">
-                                </span>
-                                <p>Squirrel</p>
-                            </div>
-                            <div class="service_hme_single_another">
-                                <span>
-                                    <img width="40" height="40" src="https://wheelerspestcontrol.com/images/page/icon/1725043679squirrel-icon.webp" alt="Squirrel">
-                                </span>
-                                <h4>
-                                    <a href="https://wheelerspestcontrol.com/squirrel-control">Squirrel</a>
-                                </h4>
-                                <p>If you &rsquo;ve been hearing mysterious scurrying in your attic or noticed chewed wires and insulation, you might be dealing squirrels. These furry intruders can cause serious damage to your home,&#8230;</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 service_hme_single" data-aos="zoom-in">
-                        <div class="service_hme_single_inner">
-                            <a href="https://wheelerspestcontrol.com/mosquitos-control-for-home-and-business">
-                                <div class="service_hme_single_image">
-                                    <img width="318" height="565" src="https://wheelerspestcontrol.com/images/page/image/1725034116mosquito-control.webp" alt="Mosquito">
-                                </div>
-                            </a>
-                            <div class="service_hme_single_content">
-                                <span>
-                                    <img width="90" height="90" src="https://wheelerspestcontrol.com/images/page/icon/1725201506icon-mosquito.webp" alt="Mosquito">
-                                </span>
-                                <p>Mosquito</p>
-                            </div>
-                            <div class="service_hme_single_another">
-                                <span>
-                                    <img width="40" height="40" src="https://wheelerspestcontrol.com/images/page/icon/1725201506icon-mosquito.webp" alt="Mosquito">
-                                </span>
-                                <h4>
-                                    <a href="https://wheelerspestcontrol.com/mosquitos-control-for-home-and-business">Mosquito</a>
-                                </h4>
-                                <p>When the warm weather hits, so do the mosquitoes. These tiny, buzzing pests can turn a peaceful evening into a frustrating battle, leaving behind itchy bites and potential health risks.&#8230;</p>
-                            </div>
-                        </div>
+                    <div class="service_hme_single_another">
+                        <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                        <p><?php echo wp_trim_words(get_the_content(), 30); ?></p>
                     </div>
                 </div>
             </div>
+        <?php endwhile;
+        wp_reset_postdata();
+    endif;
+    ?>
+</div>
+
+                
+            </div>
         </div>
     </div>
+
+
+
+
+
+
+
+
+
     <!--beeremoval-->
     <div class="beeremoval_section" data-aos="fade-up">
         <div class="container">

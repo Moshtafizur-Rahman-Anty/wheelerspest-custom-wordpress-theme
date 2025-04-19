@@ -16,6 +16,21 @@ function touchdown_pest_theme_scripts() {
 add_action('wp_enqueue_scripts', 'touchdown_pest_theme_scripts');
 
 
+function register_services_post_type() {
+    register_post_type('services', array(
+        'labels' => array(
+            'name' => 'Services',
+            'singular_name' => 'Service'
+        ),
+        'public' => true,
+        'has_archive' => true,
+        'menu_icon' => 'dashicons-hammer',
+        'supports' => array('title', 'editor', 'thumbnail'),
+        'rewrite' => array('slug' => 'services'),
+    ));
+}
+add_action('init', 'register_services_post_type');
+
 
 
 // Enable menu support
