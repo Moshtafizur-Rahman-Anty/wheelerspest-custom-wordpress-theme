@@ -5,7 +5,7 @@
                 <div class="container">
                     <div class="footer_firstlogo">
                         <a href="https://wheelerspestcontrol.com/" title="Wheeler's Pest Control">
-                            <img width="318" height="101" src="https://wheelerspestcontrol.com/assets/css/images/home/footerlogo.webp" alt="Wheeler's Pest Control">
+                            <img width="170" height="150"src="<?php echo get_template_directory_uri(); ?>/images/home/logo.webp" alt="logo">
                         </a>
                     </div>
                 </div>

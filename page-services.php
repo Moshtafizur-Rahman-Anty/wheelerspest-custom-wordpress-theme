@@ -27,8 +27,8 @@ get_header();
                     <div class="container">
                         <div class="col-sm-5 banner_innerpage_content">
                             <div class="banner_innerpage_contentinner">
-                                <div>Service</div>
-                                <p>We are dedicated to providing comprehensive and effective pest control solutions tailored to your specific needs</p>
+                            <div><?php the_title(); ?></div>
+                            <p>We are dedicated to providing comprehensive and effective pest control solutions tailored to your specific needs</p>
                                 <div class="banner_btn innerpagebtn">
                                     <a href="tel:951-681-2847" class="learnmore" tabindex="0">951-681-2847</a>
                                     <a href="contact" class="scheduleonline" tabindex="0">Schedule Online</a>

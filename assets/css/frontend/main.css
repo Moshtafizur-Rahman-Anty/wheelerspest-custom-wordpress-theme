@@ -594,7 +594,7 @@ ul.megamenu.megamenu1 {
   position: absolute;
   width: 80%;
   height: 100%;
-  background-image: url("../images/home/banneroverlay.webp");
+  background-image: url("../../../images/home/banneroverlay.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2325,7 +2325,7 @@ a.blogreadown {
   top: 100px;
 }
 .serviceown_firstcontent_inner {
-  background-image: url(../images/service/servicebackn.webp);
+  background-image: url(../../../images/home/services/servicebackn.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
