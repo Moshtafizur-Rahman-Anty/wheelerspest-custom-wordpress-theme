@@ -6,15 +6,32 @@
     <div class="col-sm-12 banner_hme_slic">
         <div class="col-sm-12 banner_hme_single">
             <div class="col-sm-12 banner_hme_image">
-                <img src="https://wheelerspestcontrol.com/images/banner/1724713429banner-13.webp" alt="Pest Service in San Diego & Riverside Counties">
+                <?php
+                $slider_image = get_field('slider_1_image');
+                if ($slider_image) {
+                    echo '<img src="' . esc_url($slider_image) . '" alt="Pest Service in San Diego & Riverside Counties">';
+                } else {
+                    echo '<img src="https://wheelerspestcontrol.com/images/banner/1724713429banner-13.webp" alt="Pest Service in San Diego & Riverside Counties">';
+                }
+                ?>
             </div>
             <div class="container">
                 <div class="col-sm-5 banner_hme_content">
                     <div class="banner_hme_content_inner">
                         <div>
-                            Pest Control <span>Solutions</span>
+                            <?php
+                            $title = get_field('slider_1_title');
+                            $subtitle = get_field('slider_1_subtitle');
+                            echo $title ? esc_html($title) : 'Pest Control';
+                            echo ' <span>' . ($subtitle ? esc_html($subtitle) : 'Solutions') . '</span>';
+                            ?>
                         </div>
-                        <p>We offer highly effective control solutions for dealing with rats, mice, and ground squirrels, which are among the most common and troublesome pests in the CA area.</p>
+                        <p>
+                            <?php
+                            $desc = get_field('slider_1_description');
+                            echo $desc ? esc_html($desc) : 'We offer highly effective control solutions for dealing with rats, mice, and ground squirrels, which are among the most common and troublesome pests in the CA area.';
+                            ?>
+                        </p>
                         <div class="banner_btn">
                             <a href="https://wheelerspestcontrol.com/services" class="learnmore">Learn More</a>
                             <a href="https://wheelerspestcontrol.com/contact" class="scheduleonline">Schedule Online</a>
@@ -23,17 +40,34 @@
                 </div>
             </div>
         </div>
+
+
+
+
         <div class="col-sm-12 banner_hme_single">
             <div class="col-sm-12 banner_hme_image">
-                <img src="https://wheelerspestcontrol.com/images/banner/1724689049banner-7.webp" alt="Pest Service in San Diego & Riverside Counties">
+                <?php
+                $slider_2_image = get_field('slider_2_image');
+                $slider_2_image = $slider_2_image ?: 'https://wheelerspestcontrol.com/images/banner/1724689049banner-7.webp';
+                ?>
+                <img src="<?php echo esc_url($slider_2_image); ?>" alt="Pest Service in San Diego & Riverside Counties">
             </div>
             <div class="container">
                 <div class="col-sm-5 banner_hme_content">
                     <div class="banner_hme_content_inner">
+                        <?php
+                        $slider_2_title = get_field('slider_2_title') ?: 'Get Rid Of Your Pests';
+                        $slider_2_subtitle = get_field('slider_2_subtitle') ?: 'Today';
+                        ?>
                         <div>
-                            Get Rid Of Your Pests <span>Today</span>
+                            <?php echo esc_html($slider_2_title); ?> <span><?php echo esc_html($slider_2_subtitle); ?></span>
                         </div>
-                        <p>Have you got pest? We can help get rid of them professionally. We provide reliable residential and commercial pest control services in the area.</p>
+                        <p>
+                            <?php
+                            $slider_2_description = get_field('slider_2_description') ?: 'Have you got pest? We can help get rid of them professionally. We provide reliable residential and commercial pest control services in the area.';
+                            echo esc_html($slider_2_description);
+                            ?>
+                        </p>
                         <div class="banner_btn">
                             <a href="https://wheelerspestcontrol.com/services" class="learnmore">Learn More</a>
                             <a href="https://wheelerspestcontrol.com/contact" class="scheduleonline">Schedule Online</a>
@@ -42,17 +76,32 @@
                 </div>
             </div>
         </div>
+
+
         <div class="col-sm-12 banner_hme_single">
             <div class="col-sm-12 banner_hme_image">
-                <img src="https://wheelerspestcontrol.com/images/banner/1724702843banner-11.webp" alt="Pest Service in San Diego & Riverside Counties">
+                <?php
+                $slider_3_image = get_field('slider_3_image');
+                $slider_3_image = $slider_3_image ?: 'https://wheelerspestcontrol.com/images/banner/1724702843banner-11.webp';
+                ?>
+                <img src="<?php echo esc_url($slider_3_image); ?>" alt="Pest Service in San Diego & Riverside Counties">
             </div>
             <div class="container">
                 <div class="col-sm-5 banner_hme_content">
                     <div class="banner_hme_content_inner">
+                        <?php
+                        $slider_3_title = get_field('slider_3_title') ?: "WE ’RE NOT HAPPY";
+                        $slider_3_subtitle = get_field('slider_3_subtitle') ?: "UNTIL YOU ’RE HAPPY";
+                        ?>
                         <div>
-                            WE &rsquo;RE NOT HAPPY <span>UNTIL YOU &rsquo;RE HAPPY</span>
+                            <?php echo esc_html($slider_3_title); ?> <span><?php echo esc_html($slider_3_subtitle); ?></span>
                         </div>
-                        <p>Our experienced pest control technicians provide the most reliable pest control service in the town. Call Wheeler &#39;s Pest Control now.</p>
+                        <p>
+                            <?php
+                            $slider_3_description = get_field('slider_3_description') ?: "Our experienced pest control technicians provide the most reliable pest control service in the town. Call Wheeler's Pest Control now.";
+                            echo esc_html($slider_3_description);
+                            ?>
+                        </p>
                         <div class="banner_btn">
                             <a href="https://wheelerspestcontrol.com/services" class="learnmore">Learn More</a>
                             <a href="https://wheelerspestcontrol.com/contact" class="scheduleonline">Schedule Online</a>
@@ -63,6 +112,10 @@
         </div>
     </div>
 </div>
+
+
+
+
 
 
 <div class="backgroundoverall">
