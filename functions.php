@@ -52,16 +52,47 @@ add_action('template_redirect', function () {
     }
 });
 
-
 add_filter('template_include', function($template) {
-    if (is_singular('services') && get_post_field('post_name') === 'ants') {
-        $custom_template = get_theme_file_path('single-services-ants.php');
-        if (file_exists($custom_template)) {
-            return $custom_template;
+    if (is_singular('services')) {
+        $slug = get_post_field('post_name');
+
+        // Custom template for Ants
+        if ($slug === 'ants') {
+            $custom = get_theme_file_path('single-services-ants.php');
+            if (file_exists($custom)) {
+                return $custom;
+            }
+        }
+
+        // Custom template for Rodents
+        if ($slug === 'rodents') {
+            $custom = get_theme_file_path('single-services-rodents.php');
+            if (file_exists($custom)) {
+                return $custom;
+            }
+        }
+
+        // Custom template for Termites
+        if ($slug === 'termites') {
+            $custom = get_theme_file_path('single-services-termites.php');
+            if (file_exists($custom)) {
+                return $custom;
+            }
+        }
+        if ($slug === 'bed-bugs') {
+            $custom = get_theme_file_path('single-services-bed-bugs.php');
+            if (file_exists($custom)) return $custom;
+        }
+
+        if ($slug === 'spiders') {
+            $custom = get_theme_file_path('single-services-spiders.php');
+            if (file_exists($custom)) return $custom;
         }
     }
+
     return $template;
 });
+
 
 
 

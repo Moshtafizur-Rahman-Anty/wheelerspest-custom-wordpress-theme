@@ -1,7 +1,9 @@
-<?php
+<?php 
+
 get_header();
 
 ?>
+
 
 <section>
     <!-- banner-section -->
@@ -13,18 +15,18 @@ get_header();
     <div class="banner_innerpage_wrapper">
         <div class="col-sm-12 banner_innerpage_hle">
             <div class="col-sm-12 banner_innerpage_background">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/services/cover-services.webp" alt="Ant Control Services">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/services/cover-services.webp" alt="Rodent Control Services">
             </div>
             <div class="col-sm-7 banner_innerpage_image">
                 <div class="banner_innerpage_image_inner">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/services/cover-services.webp" alt="Ant Control Experts">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/services/cover-services.webp" alt="Rat and Mice Control Experts">
                 </div>
             </div>
             <div class="container">
                 <div class="col-sm-5 banner_innerpage_content servicedetail_banner">
                     <div class="banner_innerpage_contentinner">
-                        <div>Ants</div>
-                        <p>Say goodbye to ant infestations! Touchdown Pest Control offers expert ant removal and treatment across San Diego & Riverside Counties. Call now to book a fast and reliable service.</p>
+                        <div>Rodents</div>
+                        <p>Get fast and reliable rodent control services with Touchdown Pest Control. We specialize in removing rats and mice across San Diego & Riverside Counties. Call today for expert rodent removal, prevention, and exclusion services.</p>
                         <div class="banner_btn innerpagebtn">
                             <a href="tel:951-681-2847" class="learnmore" tabindex="0">951-681-2847</a>
                             <a href="contact" class="scheduleonline" tabindex="0">Schedule Online</a>
@@ -42,23 +44,23 @@ get_header();
                 <div class="col-sm-12 pestcontrolown_hle">
                     <div class="col-sm-6 servicedetailimagefirst">
                         <div class="servicedetailimagefirst_image_inner">
-                            <img src="https://wheelerspestcontrol.com/images/page/image/1725052249ants-removal.webp" alt="Ant Infestation Removal">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/services/rodents.jpg" alt="Rodent Infestation Removal">
                         </div>
                     </div>
                     <div class="first_content">
-                        <h1>Ant Control & Removal Services</h1>
+                        <h1>Rodent Control & Extermination Services</h1>
                         <p>
-                            Noticed ants marching through your kitchen or emerging from wall cracks? You’re not alone. Ant invasions are a common nuisance in homes and businesses. At <a href="#">Touchdown Pest Control</a>, we deliver powerful ant treatment solutions designed to eliminate the problem at its root. Discover the most frequent ant species that invade Southern California homes and why professional ant control is key to long-term relief.
+                            Are you hearing scratching sounds in your attic or finding droppings in your kitchen? You're likely dealing with a rodent infestation. At <a href="#">Touchdown Pest Control</a>, we provide comprehensive rat and mouse control solutions to eliminate rodents and protect your property from further damage. Whether you're dealing with roof rats, Norway rats, or house mice, we have the tools and experience to get them out and keep them out.
                         </p>
                     </div>
                     <div class="second_content">
-                        <h3>Common Ant Species in Southern California</h3>
-                        <p>Effective ant control begins with proper identification. Different species require tailored strategies to ensure complete removal. Here are the top invaders we handle:</p>
+                        <h3>Common Rodent Threats in Southern California</h3>
+                        <p>Rodents are more than a nuisance—they pose health risks and cause costly property damage. These are the most common types we handle in the region:</p>
                         <ul>
-                            <li><strong>Argentine Ants:</strong> Known for forming large colonies, these ants are drawn to moisture and sweet food. They're persistent and tough to eliminate without targeted treatment.</li>
-                            <li><strong>Carpenter Ants:</strong> These wood-boring ants can weaken structural integrity by tunneling through wooden frames. Early intervention can help prevent costly damage.</li>
-                            <li><strong>Odorous House Ants:</strong> Easily recognized by their foul, rotten-coconut scent when crushed. Attracted to sugary spills and leftovers.</li>
-                            <li><strong>Fire Ants:</strong> Aggressive and painful, fire ants pose risks to children and pets. They often build large outdoor mounds but can find their way inside as well.</li>
+                            <li><strong>Norway Rats:</strong> Large burrowing rats that nest in basements and crawl spaces. Known to gnaw through wood, insulation, and even electrical wiring.</li>
+                            <li><strong>Roof Rats:</strong> Agile climbers that enter homes through roof vents and eaves. Often found in attics and upper levels of buildings.</li>
+                            <li><strong>House Mice:</strong> Small but destructive, mice contaminate food, multiply rapidly, and can carry dangerous pathogens like Hantavirus and Salmonella.</li>
+                            <li><strong>Field Mice:</strong> Often found in garages, sheds, and gardens, especially during colder seasons when they migrate indoors.</li>
                         </ul>
                     </div>
                 </div>
@@ -70,23 +72,24 @@ get_header();
                 <div class="col-sm-12 servicedetail_section_hle">
                     <div class="col-sm-5 servicedetail_secondimage">
                         <div class="servicedetail_secondimage_inner">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/services/ants-service.jpg" alt="Ant Control Experts">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/services/rodent-inspection.jpg" alt="Rodent Inspection Services">
                         </div>
                     </div>
                     <div class="second_content">
-                        <h3>What Attracts Ants Into Your Home</h3>
-                        <p>Ants are highly social insects with sharp instincts for survival. Here’s what makes your home appealing to them:</p>
+                        <h3>Why Rodents Invade Homes and Businesses</h3>
+                        <p>Rodents are resourceful and opportunistic. Here’s why they may target your property:</p>
                         <ul>
-                            <li><strong>Food:</strong> Ants seek out sugary and greasy residues. Crumbs, unsealed snacks, or spilled liquids are prime attractants.</li>
-                            <li><strong>Water:</strong> Moist environments like leaky sinks, humid bathrooms, or basements provide essential hydration for ants.</li>
-                            <li><strong>Shelter:</strong> During extreme temperatures, ants seek refuge indoors. Gaps in doors, cracks in walls, and window edges become their entry points.</li>
+                            <li><strong>Food Access:</strong> Rodents are attracted to pet food, pantry items, garbage, and crumbs. Unsealed containers or trash bins are a major draw.</li>
+                            <li><strong>Water Sources:</strong> Leaky faucets, HVAC condensation, or standing water can provide rodents with hydration they need to survive.</li>
+                            <li><strong>Shelter and Nesting:</strong> Rodents look for warm, undisturbed areas to nest—attics, wall voids, storage rooms, and garages are ideal locations.</li>
                         </ul>
-                        <p>Once ants discover a reliable food or water source, they lay down pheromone trails to guide others. Breaking this cycle with targeted ant extermination is essential. Touchdown Pest Control uses strategic methods to stop the infestation and prevent future activity.</p>
+                        <p>Once they’ve made themselves at home, rodents breed quickly and can cause extensive damage. Our rodent exclusion and sanitation services ensure they’re eliminated at the source and your home remains protected long-term.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</section>
 
     <!--service-->
     <div class="servicecover_wrap">
@@ -245,50 +248,54 @@ get_header();
                 </div>
             </div>
         </div>
-        <div class="service_detail_wrapper">
-            <!--pestthirdblck-->
-            <div class="pestthirdown_section">
-                <div class="col-sm-12 pestthirdown_hle">
-                    <div class="container">
-                        <div class="col-sm-6 servicedetailimagefirst">
-                            <div class="servicedetailimagefirst_image_inner">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/service-ants-last.png" alt="Ant Control Experts">
-                            </div>
-                        </div>
 
-                        <div class="last_bfre">
-                            <h2>How to Prevent Ant Infestations Before They Begin</h2>
-                            <p>Keeping your home protected starts with prevention. Touchdown Pest Control recommends the following expert-backed steps to help keep ants out for good:</p>
-                            <ul>
-                                <li><strong>Seal All Entry Points:</strong> Inspect your home’s foundation, windows, and doors for cracks and openings. Seal any gaps with caulk or weatherstripping to block entry paths.</li>
-                                <li><strong>Maintain a Clean Environment:</strong> Ants are attracted to food and crumbs. Wipe down surfaces daily, vacuum frequently, and store all food in sealed containers.</li>
-                                <li><strong>Address Moisture Issues:</strong> Fix leaky pipes, improve drainage, and eliminate damp spots. Ants thrive in moist environments, so drying out the area makes it less inviting.</li>
-                                <li><strong>Trim Exterior Vegetation:</strong> Keep tree branches and shrubs from touching your home, and avoid piling firewood near your foundation. These act as bridges for ants to access your house.</li>
-                            </ul>
-                        </div>
+
+
+<div class="service_detail_wrapper">
+    <!--pestthirdblck-->
+    <div class="pestthirdown_section">
+        <div class="col-sm-12 pestthirdown_hle">
+            <div class="container">
+                <div class="col-sm-6 servicedetailimagefirst">
+                    <div class="servicedetailimagefirst_image_inner">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/services/service-ants-last.png" alt="Rodent Control Experts">
                     </div>
                 </div>
-            </div>
 
-            <div class="col-sm-12 commercial_lastbottom">
-                <div class="container">
-                    <div class="fourth_content">
-                        <h3>Why Regular Ant Control Services Matter</h3>
-                        <p>DIY solutions may offer short-term relief, but they rarely solve the root of the problem. Here’s why homeowners across Southern California trust Touchdown Pest Control for ongoing ant protection:</p>
-                        <ul>
-                            <li><strong>Specialized Knowledge:</strong> Our trained technicians identify ant species and apply the most effective treatment plan for fast and lasting results.</li>
-                            <li><strong>Colony Elimination:</strong> We go beyond surface-level treatment to eliminate the colony—including the queen—ensuring ants don’t return.</li>
-                            <li><strong>Safe for Families & Pets:</strong> We use eco-friendly solutions that are powerful on pests and safe for your loved ones.</li>
-                            <li><strong>Ongoing Prevention:</strong> Regular inspections and treatments catch potential problems early—before they turn into full infestations.</li>
-                        </ul>
-                    </div>
+                <div class="last_bfre">
+                    <h2>How to Prevent Rodent Infestations Before They Start</h2>
+                    <p>Preventing rodents from entering your property is the most effective way to avoid costly infestations. Touchdown Pest Control recommends these proactive rodent prevention strategies to protect your home and family year-round:</p>
+                    <ul>
+                        <li><strong>Seal All Potential Entry Points:</strong> Mice and rats can squeeze through holes as small as a dime. Inspect your walls, vents, doors, and utility openings, and seal cracks with steel wool, caulk, or mesh barriers.</li>
+                        <li><strong>Maintain Sanitation:</strong> Keep kitchen areas spotless. Don’t leave pet food out, store pantry items in airtight containers, and empty trash bins regularly to reduce food sources that attract rodents.</li>
+                        <li><strong>Eliminate Water Sources:</strong> Rodents are drawn to moisture. Fix leaky faucets, unclog gutters, and ensure crawl spaces are dry and well-ventilated.</li>
+                        <li><strong>Trim Outdoor Vegetation:</strong> Keep tree branches and shrubs away from the exterior of your home. Avoid stacking firewood or debris near the foundation, as rodents often use these as cover and nesting areas.</li>
+                    </ul>
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="col-sm-12 commercial_lastbottom">
+        <div class="container">
+            <div class="fourth_content">
+                <h3>The Importance of Ongoing Rodent Control Services</h3>
+                <p>While DIY traps and repellents may offer temporary results, they rarely eliminate the root cause of an infestation. Here’s why regular professional rodent control is essential for long-term protection:</p>
+                <ul>
+                    <li><strong>Expert Identification & Strategy:</strong> Our licensed technicians determine the species involved and tailor a plan specific to your rodent issue—ensuring targeted, effective removal.</li>
+                    <li><strong>Total Infestation Elimination:</strong> We don’t just address the visible rodents. Our approach includes locating nests, blocking reentry points, and disrupting the breeding cycle for complete extermination.</li>
+                    <li><strong>Safe & Responsible Treatment:</strong> Touchdown Pest Control uses family-safe and pet-safe treatment methods that effectively eliminate rodents while minimizing health risks.</li>
+                    <li><strong>Preventive Monitoring & Maintenance:</strong> Routine follow-up inspections and exclusion services ensure that your home remains rodent-free and protected year-round.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 </section>
 
-<?php
+<?php 
 
 get_footer();
 
