@@ -45,6 +45,37 @@ function touchdown_register_menus() {
 }
 add_action('init', 'touchdown_register_menus');
 
+add_action('template_redirect', function () {
+    if (is_page('services')) {
+        include get_theme_file_path('page-services.php');
+        exit;
+    }
+});
+
+
+add_filter('template_include', function($template) {
+    if (is_singular('services') && get_post_field('post_name') === 'ants') {
+        $custom_template = get_theme_file_path('single-services-ants.php');
+        if (file_exists($custom_template)) {
+            return $custom_template;
+        }
+    }
+    return $template;
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Enable featured images
 add_theme_support('post-thumbnails');

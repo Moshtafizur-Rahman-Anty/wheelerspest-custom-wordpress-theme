@@ -251,12 +251,7 @@
                                         <img src="https://wheelerspestcontrol.com/images/page/image/1725051948pic-28.webp" alt="Ants">
                                     </div>
                                 </div>
-                                <div class="third_content">
-                                    <h2>Do You Need Reliable Ant Extermination Services?</h2>
-                                    <p>
-                                        If you &rsquo;re struggling with an ant problem, Wheeler &#39;s <a href="/pest-control-company-menifee-ca">Pest Control</a>
-                                        is here to help. Our team specializes in ant removal and ant extermination and can provide solutions that get to the root of the problem. Don &rsquo;t let ants take over your home. Contact us to schedule an appointment for professional ant treatment in Winchester, California.&nbsp;
-                                </div>
+                               
                                 <div class="last_bfre">
                                     <h2>Preventing Ant Infestations Before They Start</h2>
                                     <p>Taking proactive steps can save you the hassle of dealing with infestations later on. Here &rsquo;s how to keep your home ant-free: 
