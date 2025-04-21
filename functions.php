@@ -88,6 +88,26 @@ add_filter('template_include', function($template) {
             $custom = get_theme_file_path('single-services-spiders.php');
             if (file_exists($custom)) return $custom;
         }
+
+        
+        if ($slug === 'roaches') {
+            $custom = get_theme_file_path('single-services-roaches.php');
+            if (file_exists($custom)) return $custom;
+        }
+
+        if ($slug === 'bees-wasps-hornets') {
+            $custom = get_theme_file_path('single-services-bees-wasps-hornets.php');
+            if (file_exists($custom)) return $custom;
+        }
+
+        if ($slug === 'mosquitos') {
+            $custom = get_theme_file_path('single-services-mosquitos.php');
+            if (file_exists($custom)) return $custom;
+        }
+
+        
+
+
     }
 
     return $template;

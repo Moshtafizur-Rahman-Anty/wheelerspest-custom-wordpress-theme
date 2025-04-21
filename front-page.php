@@ -21,9 +21,7 @@
                         <div>
                             <?php
                             $title    = get_field('slider_1_title');
-                            $subtitle = get_field('slider_1_subtitle');
                             echo $title ? esc_html($title) : 'Pest Control';
-                            echo ' <span>' . ($subtitle ? esc_html($subtitle) : 'Solutions') . '</span>';
                             ?>
                         </div>
                         <p>
@@ -33,8 +31,9 @@
                             ?>
                         </p>
                         <div class="banner_btn">
-                            <a href="https://wheelerspestcontrol.com/services" class="learnmore">Learn More</a>
-                            <a href="https://wheelerspestcontrol.com/contact" class="scheduleonline">Schedule Online</a>
+                        <a href="<?php echo esc_url(home_url('/services')); ?>" class="learnmore">Learn More</a>
+<a href="<?php echo esc_url(home_url('/contact')); ?>" class="scheduleonline">Schedule Online</a>
+
                         </div>
                     </div>
                 </div>
@@ -68,8 +67,8 @@
                             ?>
                         </p>
                         <div class="banner_btn">
-                            <a href="https://wheelerspestcontrol.com/services" class="learnmore">Learn More</a>
-                            <a href="https://wheelerspestcontrol.com/contact" class="scheduleonline">Schedule Online</a>
+                        <a href="<?php echo esc_url(home_url('/services')); ?>" class="learnmore">Learn More</a>
+                        <a href="<?php echo esc_url(home_url('/contact')); ?>" class="scheduleonline">Schedule Online</a>
                         </div>
                     </div>
                 </div>
@@ -93,7 +92,7 @@
                         $slider_3_subtitle = get_field('slider_3_subtitle') ?: "UNTIL YOU ’RE HAPPY";
                         ?>
                         <div>
-                            <?php echo esc_html($slider_3_title); ?> <span><?php echo esc_html($slider_3_subtitle); ?></span>
+                            <?php echo esc_html($slider_3_title); ?> <span></span>
                         </div>
                         <p>
                             <?php
@@ -102,8 +101,8 @@
                             ?>
                         </p>
                         <div class="banner_btn">
-                            <a href="https://wheelerspestcontrol.com/services" class="learnmore">Learn More</a>
-                            <a href="https://wheelerspestcontrol.com/contact" class="scheduleonline">Schedule Online</a>
+                        <a href="<?php echo esc_url(home_url('/services')); ?>" class="learnmore">Learn More</a>
+                        <a href="<?php echo esc_url(home_url('/contact')); ?>" class="scheduleonline">Schedule Online</a>
                         </div>
                     </div>
                 </div>
@@ -125,7 +124,7 @@
                         <span class="icon-wrap">
                             <i class="fa fa-search" aria-hidden="true"></i>
                         </span>
-                        <strong>Inspection and Assessment</strong>
+                        <strong>Comprehensive Inspection & Evaluation</strong>
                     </div>
                 </div>
                 <div class="col-sm-4 bannerbelow_single">
@@ -133,7 +132,7 @@
                         <span class="icon-wrap">
                             <i class="fa fa-wrench" aria-hidden="true"></i>
                         </span>
-                        <strong>Customized Treatment &amp; Implementation</strong>
+                        <strong>Comprehensive Inspection & Evaluation</strong>
                     </div>
                 </div>
                 <div class="col-sm-4 bannerbelow_single">
@@ -141,7 +140,7 @@
                         <span class="icon-wrap">
                             <i class="fa fa-shield" aria-hidden="true"></i>
                         </span>
-                        <strong>Follow-Up And Prevention</strong>
+                        <strong>Ongoing Monitoring & Protection</strong>
                     </div>
                 </div>
             </div>
@@ -181,20 +180,20 @@
             <div class="col-sm-6 professional_hme_image" data-aos="zoom-in">
                 <div class="professional_hme_image_inner">
                     <a href="https://wheelerspestcontrol.com/home-pest-control">
-                        <img width="630" height="800" src="https://wheelerspestcontrol.com/images/blocks/1722866054abt.webp" alt="Pest Control">
+                        <img width="630" height="800" src="<?php echo get_template_directory_uri(); ?>/images/services/pest-expert.png" alt="Pest Control">
                     </a>
                 </div>
             </div>
-            <h1>Professional Pest Control Services in San Diego &amp;Riverside Counties</h1>
-            <p>
-                Pests can cause an enormous amount of property damage and can even create health risks to your family or employees. Wheeler &rsquo;s Pest Control offers <a href="/pest-control-company-del-mar-ca">comprehensive pest control services</a>
-                to tackle a wide variety of issues. From ants and rodents and spiders, we &rsquo;ve got you covered. Our team begins with an inspection of your property to help identify the type of pest and the extent of the infestation. Once we have a clear understanding of the situation, we develop a customized treatment plan that targets the pests at their source. We use the latest and most effective methods to remove your unwanted guests and prevent them from returning. We believe in <a href="/pest-control-company-encinitas-ca">proactive pest management</a>
-                , so our team will work to address the underlying causes to avoid future infestations.
-            </p>
-            <p>Whether you own a home, run a business, or manage multiple properties, pests can be a persistent and expensive problem. Wheeler &rsquo;s Pest Control offers comprehensive pest services for residential and commercial clients so you can make sure that your property remains safe and comfortable.&nbsp;</p>
+            <h1>Expert Pest Control Services for Homes & Businesses</h1>
+<p>
+    Unwanted pests can lead to serious property damage and pose health risks to your family, employees, or tenants. At Touchdown Pest Control, we provide <a href="/pest-control-company-del-mar-ca">reliable pest control solutions</a> designed to eliminate a wide range of infestations, including ants, rodents, spiders, and more. Our process starts with a detailed inspection to accurately identify pest activity and assess the severity of the problem. From there, we craft a customized treatment strategy that targets pests at their source using proven and modern methods. We also offer <a href="/pest-control-company-encinitas-ca">preventive pest management services</a> to resolve root causes and stop infestations before they start.
+</p>
+<p>
+    Whether you're a homeowner, business owner, or property manager, pest issues can be persistent and costly. Touchdown Pest Control delivers tailored residential and commercial pest control services to ensure your property stays protected, healthy, and pest-free all year round.
+</p>
             <div class="banner_btn abt_btn">
-                <a href="https://wheelerspestcontrol.com/services" class="learnmore">Learn More</a>
-                <a href="https://wheelerspestcontrol.com/contact" class="scheduleonline">Schedule Online</a>
+            <a href="<?php echo esc_url(home_url('/services')); ?>" class="learnmore">Learn More</a>
+            <a href="<?php echo esc_url(home_url('/contact')); ?>" class="scheduleonline">Schedule Online</a>
             </div>
         </div>
     </div>
@@ -254,19 +253,21 @@
         <div class="col-sm-7 beeremoval_image" data-aos="zoom-in">
             <div class="beeremoval_image_inner">
                 <a href="https://wheelerspestcontrol.com/bee-removal">
-                    <img width="735" height="630" src="https://wheelerspestcontrol.com/images/blocks/1722866250beeremoval.webp" alt="Bee Rmoval Servie">
+                    <img width="735" height="630" src="<?php echo get_template_directory_uri(); ?>/images/services/bees-2.png" alt="Bee Rmoval Servie">
                 </a>
             </div>
         </div>
-        <h2>BEE REMOVAL AND BEE CONTROL SERVICES</h2>
-        <p>
-            Bees are central to the health of our ecosystem, but when they take up residence in or around your home, they can become a serious hazard. Whether it &rsquo;s a swarm that has recently settled or an established hive that &rsquo;s growing too close for comfort, Wheeler &rsquo;s <a href="/pest-control-company-carlsbad-ca">Pest Control</a>
-            offers dependable bee removal and control services. We understand that bee removal requires a delicate touch.
-        </p>
-        <p>Our team is trained to handle bees safely and effectively, using methods that minimize harm to the bees while protecting your property. Whenever possible, we focus on relocation rather than extermination so we can do our part to preserve these important pollinators. Our bee removal process starts with a detailed assessment to locate the hive and determine the best course of action. Depending on the situation, we may use specialized equipment to remove the bees or work with local beekeepers to relocate them. In cases where removal isn &rsquo;t feasible, we provide ongoing control measures to keep the bees at bay. If you &rsquo;re dealing with a bee problem, let us handle it safely.</p>
+        <h2>BEE REMOVAL AND CONTROL SERVICES YOU CAN TRUST</h2>
+<p>
+    Bees play a vital role in pollination, but when they establish hives near your home or business, they can pose serious safety risks. Whether you're dealing with a newly formed swarm or an active hive that's too close for comfort, Touchdown Pest Control provides expert <a href="/pest-control-company-carlsbad-ca">bee removal and hive control services</a> tailored to your needs. We understand the importance of humane, effective solutions.
+</p>
+<p>
+    Our certified technicians specialize in safe and environmentally responsible bee control. Whenever possible, we prioritize relocation over extermination to protect both your property and the local ecosystem. Our process begins with a detailed site inspection to identify the hive's location and determine the best removal strategy. Depending on the severity and placement, we may utilize advanced equipment or collaborate with licensed beekeepers to ensure a smooth and safe relocation. If removal isn't viable, we implement long-term exclusion techniques to prevent future infestations. Don’t let a bee infestation threaten your space—contact us today for safe, efficient bee control.
+</p>
+
         <div class="banner_btn abt_btn beeremoval_btn">
-            <a href="https://wheelerspestcontrol.com/bee-removal" class="learnmore">Learn More</a>
-            <a href="https://wheelerspestcontrol.com/contact" class="scheduleonline">Schedule Online</a>
+        <a href="<?php echo esc_url(home_url('/services')); ?>" class="learnmore">Learn More</a>
+        <a href="<?php echo esc_url(home_url('/contact')); ?>" class="scheduleonline">Schedule Online</a>
         </div>
     </div>
 </div>
@@ -280,7 +281,7 @@
             <div class="col-sm-6 pestcontrol_image" data-aos="zoom-in">
                 <div class="pestcontrol_image_inner">
                     <a href="https://wheelerspestcontrol.com/services">
-                        <img width="504" height="865" src="https://wheelerspestcontrol.com/images/blocks/1722866347pedelimage.webp" alt="Residential & Commercial Pest Service">
+                        <img width="1000" height="504"  src="<?php echo get_template_directory_uri(); ?>/images/services/commercial.png"  alt="Residential & Commercial Pest Service">
                     </a>
                 </div>
             </div>
@@ -294,8 +295,8 @@
                 that are customized to the unique challenges of your industry. We work discreetly and efficiently to take care of any pest issues without disrupting your operations. No matter the size or type of property, Wheeler &rsquo;s Pest Control has the experience to handle it all. We use advanced techniques to deliver results that last.&nbsp;
             </p>
             <div class="banner_btn abt_btn">
-                <a href="https://wheelerspestcontrol.com/services" class="learnmore">Learn More</a>
-                <a href="https://wheelerspestcontrol.com/contact" class="scheduleonline">Schedule Online</a>
+            <a href="<?php echo esc_url(home_url('/services')); ?>" class="learnmore">Learn More</a>
+            <a href="<?php echo esc_url(home_url('/contact')); ?>" class="scheduleonline">Schedule Online</a>
             </div>
         </div>
     </div>

@@ -28,8 +28,8 @@ get_header();
                         <div>Rodents</div>
                         <p>Get fast and reliable rodent control services with Touchdown Pest Control. We specialize in removing rats and mice across San Diego & Riverside Counties. Call today for expert rodent removal, prevention, and exclusion services.</p>
                         <div class="banner_btn innerpagebtn">
-                            <a href="tel:951-681-2847" class="learnmore" tabindex="0">951-681-2847</a>
-                            <a href="contact" class="scheduleonline" tabindex="0">Schedule Online</a>
+                        <a href="tel:626-966-5600" class="learnmore" tabindex="0">626-966-5600</a>
+                        <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="scheduleonline" tabindex="0">Schedule Online</a>
                         </div>
                     </div>
                 </div>
@@ -83,164 +83,48 @@ get_header();
     </div>
 </div>
 
-            <!--service-->
-            <div class="servicecover_wrap">
-                <div class="service_hme_wrapper">
-                    <div class="col-sm-12 service_hme_hle">
-                        <div class="container">
-                            <div class="col-sm-12 service_hme_title couponshme_title">
-                                <h2>CHOOSE THE SERVICE THAT WORKS FOR YOU!</h2>
-                            </div>
-                            <div class="col-sm-12 service_hme_slic">
-                                <div class="col-sm-3 service_hme_single" data-aos="fade-up">
-                                    <div class="service_hme_single_inner">
-                                        <a href="https://wheelerspestcontrol.com/bed-bugs">
-                                            <div class="service_hme_single_image">
-                                                <img src="https://wheelerspestcontrol.com/images/page/image/1725049766bed-bug-removal.webp" alt="Spiders">
-                                            </div>
-                                        </a>
-                                        <div class="service_hme_single_content">
-                                            <span>
-                                                <img src="https://wheelerspestcontrol.com/images/page/icon/1725049659icon-bedbug.webp" alt="Bed Bug">
-                                            </span>
-                                            <p>Bed Bug</p>
-                                        </div>
-                                        <div class="service_hme_single_another">
-                                            <span>
-                                                <img src="https://wheelerspestcontrol.com/images/page/icon/1725049659icon-bedbug.webp" alt="Bed Bug">
-                                            </span>
-                                            <h4>
-                                                <a href="https://wheelerspestcontrol.com/bed-bugs">Bed Bug</a>
-                                            </h4>
-                                            <p>When bed bugs invade, they disrupt your sense of peace, making your own bed feel like a battleground. These tiny pests are notorious for their resilience and rapid reproduction. At &#8230;</p>
-                                        </div>
+<!--service-->
+<div class="service_hme_wrapper" data-aos="fade-up">
+    <div class="col-sm-12 service_hme_hle">
+        <div class="container">
+            <div class="col-sm-12 service_hme_title couponshme_title">
+                <h2>CHOOSE THE SERVICE THAT WORKS FOR YOU!</h2>
+            </div>
+            <div class="col-sm-12 service_hme_slic">
+
+                <?php
+                $services = new WP_Query([
+                    'post_type'      => 'services',
+                    'posts_per_page' => 8,
+                ]);
+                if ($services->have_posts()):
+                    while ($services->have_posts()): $services->the_post(); ?>
+                        <div class="col-sm-3 service_hme_single" data-aos="zoom-in">
+                            <div class="service_hme_single_inner">
+                                <a href="<?php the_permalink(); ?>">
+                                    <div class="service_hme_single_image">
+                                        <?php the_post_thumbnail('full', ['width' => 318, 'height' => 565]); ?>
                                     </div>
+                                </a>
+                                <div class="service_hme_single_content">
+                                    <p><?php the_title(); ?></p>
                                 </div>
-                                <div class="col-sm-3 service_hme_single" data-aos="fade-up">
-                                    <div class="service_hme_single_inner">
-                                        <a href="https://wheelerspestcontrol.com/commercial">
-                                            <div class="service_hme_single_image">
-                                                <img src="https://wheelerspestcontrol.com/images/page/image/1724927194commercial.webp" alt="Spiders">
-                                            </div>
-                                        </a>
-                                        <div class="service_hme_single_content">
-                                            <span>
-                                                <img src="https://wheelerspestcontrol.com/assets/css/images/home/serviceicon-white1.webp" alt="Commercial">
-                                            </span>
-                                            <p>Commercial</p>
-                                        </div>
-                                        <div class="service_hme_single_another">
-                                            <span>
-                                                <img src="https://wheelerspestcontrol.com/assets/css/images/home/serviceicon-white1.webp" alt="Commercial">
-                                            </span>
-                                            <h4>
-                                                <a href="https://wheelerspestcontrol.com/commercial">Commercial</a>
-                                            </h4>
-                                            <p>Whether you manage a restaurant, office space, retail store, or warehouse, pests can quickly become a nightmare that threatens your reputation, finances, and compliance with health codes. At Wheeler &#39;s Pest &#8230;</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-3 service_hme_single" data-aos="fade-up">
-                                    <div class="service_hme_single_inner">
-                                        <a href="https://wheelerspestcontrol.com/bee-removal">
-                                            <div class="service_hme_single_image">
-                                                <img src="https://wheelerspestcontrol.com/images/page/image/1724928132bee1.webp" alt="Spiders">
-                                            </div>
-                                        </a>
-                                        <div class="service_hme_single_content">
-                                            <span>
-                                                <img src="https://wheelerspestcontrol.com/images/page/icon/1725161591icon-bee.webp" alt="Bee Removal">
-                                            </span>
-                                            <p>Bee Removal</p>
-                                        </div>
-                                        <div class="service_hme_single_another">
-                                            <span>
-                                                <img src="https://wheelerspestcontrol.com/images/page/icon/1725161591icon-bee.webp" alt="Bee Removal">
-                                            </span>
-                                            <h4>
-                                                <a href="https://wheelerspestcontrol.com/bee-removal">Bee Removal</a>
-                                            </h4>
-                                            <p>Bees are vital to our ecosystem, but when they invade your home or yard, they can quickly pose a real danger. Whether it &#39;s a buzzing hive in your attic or &#8230;</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-3 service_hme_single" data-aos="fade-up">
-                                    <div class="service_hme_single_inner">
-                                        <a href="https://wheelerspestcontrol.com/spiders-control">
-                                            <div class="service_hme_single_image">
-                                                <img src="https://wheelerspestcontrol.com/images/page/image/1725060716spider-removal-control.webp" alt="Spiders">
-                                            </div>
-                                        </a>
-                                        <div class="service_hme_single_content">
-                                            <span>
-                                                <img src="https://wheelerspestcontrol.com/images/page/icon/1725060996icon-spider.webp" alt="Spiders">
-                                            </span>
-                                            <p>Spiders</p>
-                                        </div>
-                                        <div class="service_hme_single_another">
-                                            <span>
-                                                <img src="https://wheelerspestcontrol.com/images/page/icon/1725060996icon-spider.webp" alt="Spiders">
-                                            </span>
-                                            <h4>
-                                                <a href="https://wheelerspestcontrol.com/spiders-control">Spiders</a>
-                                            </h4>
-                                            <p>People fear or dislike spiders but, for the most part, spiders are beneficial because of their role as predators of insects and other arthropods, and most of them cannot harm &#8230;</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-3 service_hme_single" data-aos="fade-up">
-                                    <div class="service_hme_single_inner">
-                                        <a href="https://wheelerspestcontrol.com/ants-removal-and-treatment">
-                                            <div class="service_hme_single_image">
-                                                <img src="https://wheelerspestcontrol.com/images/page/image/1725052249ants-removal.webp" alt="Spiders">
-                                            </div>
-                                        </a>
-                                        <div class="service_hme_single_content">
-                                            <span>
-                                                <img src="https://wheelerspestcontrol.com/images/page/icon/1725052113icon-ants.webp" alt="Ants">
-                                            </span>
-                                            <p>Ants</p>
-                                        </div>
-                                        <div class="service_hme_single_another">
-                                            <span>
-                                                <img src="https://wheelerspestcontrol.com/images/page/icon/1725052113icon-ants.webp" alt="Ants">
-                                            </span>
-                                            <h4>
-                                                <a href="https://wheelerspestcontrol.com/ants-removal-and-treatment">Ants</a>
-                                            </h4>
-                                            <p>Have you found ants trailing through your kitchen or nesting in your walls? The good news is you don &rsquo;t have to live with these persistent pests. Whether you &rsquo;re dealing with &#8230;</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-3 service_hme_single" data-aos="fade-up">
-                                    <div class="service_hme_single_inner">
-                                        <a href="https://wheelerspestcontrol.com/rat-mouse-extermination">
-                                            <div class="service_hme_single_image">
-                                                <img src="https://wheelerspestcontrol.com/images/page/image/1725452866pic-32.webp" alt="Spiders">
-                                            </div>
-                                        </a>
-                                        <div class="service_hme_single_content">
-                                            <span>
-                                                <img src="https://wheelerspestcontrol.com/images/page/icon/1725038375mouse-icon-3.webp" alt="Rat & Mice">
-                                            </span>
-                                            <p>Rat & Mice</p>
-                                        </div>
-                                        <div class="service_hme_single_another">
-                                            <span>
-                                                <img src="https://wheelerspestcontrol.com/images/page/icon/1725038375mouse-icon-3.webp" alt="Rat & Mice">
-                                            </span>
-                                            <h4>
-                                                <a href="https://wheelerspestcontrol.com/rat-mouse-extermination">Rat & Mice</a>
-                                            </h4>
-                                            <p>Rats and mice might be small, but the problems they create can be enormous. These unwelcome guests can turn your cozy home into a nightmare if left unchecked. If you &#39;ve &#8230;</p>
-                                        </div>
-                                    </div>
+                                <div class="service_hme_single_another">
+                                    <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                                    <p><?php echo wp_trim_words(get_the_content(), 30); ?></p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                <?php endwhile;
+                    wp_reset_postdata();
+                endif;
+                ?>
+            </div>
 
+
+        </div>
+    </div>
+</div>
 
 
                 <div class="service_detail_wrapper">

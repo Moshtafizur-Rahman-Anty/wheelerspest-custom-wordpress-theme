@@ -29,8 +29,8 @@ get_header();
                             <div><?php the_title(); ?></div>
                             <p>We are dedicated to providing comprehensive and effective pest control solutions tailored to your specific needs</p>
                                 <div class="banner_btn innerpagebtn">
-                                    <a href="tel:951-681-2847" class="learnmore" tabindex="0">951-681-2847</a>
-                                    <a href="contact" class="scheduleonline" tabindex="0">Schedule Online</a>
+                                <a href="tel:626-966-5600" class="learnmore" tabindex="0">626-966-5600</a>
+                                <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="scheduleonline" tabindex="0">Schedule Online</a>
                                 </div>
                             </div>
                         </div>
