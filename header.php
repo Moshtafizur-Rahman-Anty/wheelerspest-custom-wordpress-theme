@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="5-214AVkA9rL6N9HxTZsQg4siIgY92FUy5bINa_t34E" />
 
-    <title><?php wp_title('|', true, 'right'); ?></title>
+    <title><?php wp_title(' ', true, 'right'); ?></title>
     <meta name="description" content="<?php bloginfo('description'); ?>">
     <meta name="keywords" content="Pest Control, pest service, pest removal">
     <link rel="canonical" href="<?php echo esc_url(get_permalink()); ?>">

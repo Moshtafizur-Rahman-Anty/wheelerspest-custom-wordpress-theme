@@ -4,7 +4,7 @@
             <div class="col-sm-12 footer_firstblck">
                 <div class="container">
                     <div class="footer_firstlogo">
-                        <a href="https://wheelerspestcontrol.com/" title="Wheeler's Pest Control">
+                        <a href="<?php echo esc_url(home_url('/')); ?>">
                             <img width="170" height="150"src="<?php echo get_template_directory_uri(); ?>/images/home/logo.webp" alt="logo">
                         </a>
                     </div>
@@ -16,18 +16,8 @@
                         <div class="footer_about_inner">
                             <h2>ABOUT US</h2>
                             <p>
-                                Do you need reliable local pest exterminators in San Diego or Riverside Counties? Wheeler &#39;s Pest Control provides reliable residential and commercial pest control, gopher, rodent, squirrel, mosquito, and bee removal &amp;control services in <a href="/pest-control-company-carlsbad-ca">Carlsbad</a>
-                                , <a href="/pest-control-company-del-mar-ca">Del Mar</a>
-                                , <a href="/pest-control-company-encinitas-ca">Encinitas</a>
-                                , <a href="/pest-control-company-lake-elsinore-ca">Lake Elsinore</a>
-                                , <a href="/pest-control-company-menifee-ca">Menifee</a>
-                                ,&nbsp;<a href="/pest-control-company-murrieta-ca">Murrieta</a>
-                                , <a href="/pest-control-company-rancho-santa-fe-ca">Rancho Santa Fe</a>
-                                , <a href="/pest-control-company-temecula-ca">Temecula</a>
-                                , <a href="/pest-control-company-wildomar-ca">Wildomar</a>
-                                , <a href="/home-pest-control">Winchester</a>
-                                , CA, and all nearby towns. Call our pest control company to schedule a service today.
-                            </p>
+                                Do you need reliable local pest exterminators in West Covina or San Gabriel? Touchdown&#39;s Pest Control provides reliable residential and commercial pest control, gopher, rodent, squirrel, mosquito, and bee removal services in <a href="<?php echo esc_url(home_url('/west-covina')); ?>">West Covina</a>, <a href="<?php echo esc_url(home_url('/san-gabriel')); ?>">San Gabriel</a>
+                                        </p>
                             <ul>
                                 <li>
                                     <a href="https://www.google.com/maps/place/Wheeler's+pest+Control/@33.60652,-117.11569,15z/data=!4m6!3m5!1s0x80dc8259c6d92ab9:0x7c22a84dbeec82de!8m2!3d33.60652!4d-117.11569!16s%2Fg%2F119tb5jt4?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D">
@@ -59,40 +49,23 @@
                         <h2>LINKS</h2>
                         <ul>
                             <li>
-                                <a href="https://wheelerspestcontrol.com/">Home </a>
+                                <a href="<?php echo esc_url(home_url('/')); ?>">Home </a>
                             </li>
                             <li>
-                                <a href="https://wheelerspestcontrol.com/services">Services </a>
+                                <a href="<?php echo esc_url(home_url('/services-page')); ?>">Services </a>
                             </li>
                             <li>
-                                <a href="https://wheelerspestcontrol.com/about-us">About Us </a>
+                                <a href="<?php echo esc_url(home_url('/contact-page')); ?>">Contact Us</a>
                             </li>
                             <li>
-                                <a href="https://wheelerspestcontrol.com/reviews">Reviews </a>
+                                <a href="<?php echo esc_url(home_url('/blog')); ?>">Blog</a>
                             </li>
                             <li>
-                                <a href="https://wheelerspestcontrol.com/contact">Contact Us</a>
+                                <a href="<?php echo esc_url(home_url('/service-areas')); ?>">Service Areas </a>
                             </li>
+                          
                             <li>
-                                <a href="https://wheelerspestcontrol.com/blog">Blog</a>
-                            </li>
-                            <li>
-                                <a href="https://wheelerspestcontrol.com/coupons">Coupons</a>
-                            </li>
-                            <li>
-                                <a href="https://wheelerspestcontrol.com/serviceareas">Service Areas </a>
-                            </li>
-                            <li>
-                                <a href="https://wheelerspestcontrol.com/accessibility">Accessibility</a>
-                            </li>
-                            <li>
-                                <a href="https://wheelerspestcontrol.com/sitemap-xlt">Sitemap</a>
-                            </li>
-                            <li>
-                                <a href="https://wheelerspestcontrol.com/privacy-policy">Privacy Policy</a>
-                            </li>
-                            <li>
-                                <a href="https://wheelerspestcontrol.com/terms-and-conditions">Terms and Conditions</a>
+                                <a href="<?php echo esc_url(home_url('/privacy-policy')); ?>">Privacy Policy</a>
                             </li>
                         </ul>
                     </div>
@@ -100,19 +73,19 @@
                         <h2>SERVICES</h2>
                         <ul>
                             <li>
-                                <a href="https://wheelerspestcontrol.com/home-pest-control">Pest Control </a>
+                                <a href="<?php echo esc_url(home_url('/residential')); ?>">Residential </a>
                             </li>
                             <li>
-                                <a href="https://wheelerspestcontrol.com/commercial">Commercial </a>
+                                <a href="<?php echo esc_url(home_url('/commercial')); ?>">Commercial </a>
                             </li>
                             <li>
-                                <a href="https://wheelerspestcontrol.com/mosquitos-control-for-home-and-business">Mosquitos </a>
+                                <a href="<?php echo esc_url(home_url('/mosquitos')); ?>">Mosquitos </a>
                             </li>
                             <li>
-                                <a href="https://wheelerspestcontrol.com/bee-removal">Bee Removal </a>
+                                <a href="<?php echo esc_url(home_url('/bees-wasps-hornets')); ?>">Bee Removal </a>
                             </li>
                             <li>
-                                <a href="https://wheelerspestcontrol.com/gopher-control">Gophers</a>
+                                <a href="<?php echo esc_url(home_url('/spiders')); ?>">Spiders</a>
                             </li>
                         </ul>
                     </div>
@@ -120,24 +93,19 @@
                         <h2>CONTACT US!</h2>
                         <div class="col-sm-12 footer_address">
                             <h5>Our Address</h5>
-                            <p itemscope="" itemtype="http://schema.org/LocalBusiness">
-                                <meta itemprop="priceRange" content="$200 - $500" />
-                                <meta itemprop="image" content="https://www.wheelerspestcontrol.com/assets/css/images/home/logo.webp" />
-                                <meta itemprop="name" content="Wheeler's Pest Control" />
-                                <meta itemprop="legalName" content="Wheeler's Pest Control" />
-                                <meta itemprop="telephone" content="951-681-2847" />
-                                <em itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
-                                    <em itemprop="streetAddress">35466 Azalea Cir</em>
-                                    , <em itemprop="addressLocality">Winchester</em>
-                                    , <em itemprop="addressRegion">CA</em>
-                                    <em itemprop="postalCode">92596</em>
-                                </em>
-                                <a itemprop="hasMap" style="color:#ffffff; font-size:16px" href="https://www.google.com/maps/place/Wheeler's+pest+Control/@33.60652,-117.11569,15z/data=!4m6!3m5!1s0x80dc8259c6d92ab9:0x7c22a84dbeec82de!8m2!3d33.60652!4d-117.11569!16s%2Fg%2F119tb5jt4?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D" title="Pest Control Company">Map</a>
-                            </p>
-                        </div>
+<p>1730 W Cameron Ave.</p>
+<p>West Covina Ca 91790</p>
+
+
+
+<p style="font-size:20px;">Business Phone Number: <a href="tel:+16269665600" style="font-size:16px;">(626) 966-5600</a></p>
+
+<p style="font-size:18px;">Business Email: <a href="mailto:tdaniels@touchdownpestcontrol.com" style="font-size:16px;">tdaniels@touchdownpestcontrol.com</a></p>
+
+  
+             </div>
                         <div class="col-sm-12 footer_address">
-                            <h5>Phone</h5>
-                            <a href="tel:951-681-2847">951-681-2847</a>
+                    
                         </div>
                     </div>
                 </div>
@@ -146,16 +114,10 @@
                 <div class="container">
                     <div class="col-sm-6 footer_third_copyright">
                         <div class="footer_third_copyright_inner">
-                            <p>2025 Wheeler's Pest Control All Rights Reserved</p>
+                            <p>2025 Touchdown Pest Control All Rights Reserved</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 footer_third_iboost">
-                        <div class="footer_third_iboost_inner">
-                            <a href="https://www.iboostweb.com" title="iBoost">
-                                <img width="218" height="37" src="https://wheelerspestcontrol.com/assets/css/images/home/iboost.webp" alt="iBoost">
-                            </a>
-                        </div>
-                    </div>
+                
                 </div>
             </div>
         </div>

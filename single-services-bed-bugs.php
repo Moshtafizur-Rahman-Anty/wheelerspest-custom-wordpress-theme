@@ -25,8 +25,8 @@ get_header();
             <div class="container">
                 <div class="col-sm-5 banner_innerpage_content servicedetail_banner">
                     <div class="banner_innerpage_contentinner">
-                        <div>Rodents</div>
-                        <p>Get fast and reliable rodent control services with Touchdown Pest Control. We specialize in removing rats and mice across San Diego & Riverside Counties. Call today for expert rodent removal, prevention, and exclusion services.</p>
+                        <div>Bed Bugs</div>
+                        <p>Get fast and reliable services with Touchdown Pest Control. We specialize in removing rats and mice across San Diego & Riverside Counties. Call today for expert rodent removal, prevention, and exclusion services.</p>
                         <div class="banner_btn innerpagebtn">
                         <a href="tel:626-966-5600" class="learnmore" tabindex="0">626-966-5600</a>
                         <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="scheduleonline" tabindex="0">Schedule Online</a>

@@ -25,8 +25,8 @@ get_header();
             <div class="container">
                 <div class="col-sm-5 banner_innerpage_content servicedetail_banner">
                     <div class="banner_innerpage_contentinner">
-                        <div>Ants</div>
-                        <p>Say goodbye to ant infestations! Touchdown Pest Control offers expert ant removal and treatment across San Diego & Riverside Counties. Call now to book a fast and reliable service.</p>
+                        <div>Mosquitos</div>
+                        <p>Touchdown Pest Control offers expert ant removal and treatment across San Diego & Riverside Counties. Call now to book a fast and reliable service.</p>
                         <div class="banner_btn innerpagebtn">
                         <a href="tel:626-966-5600" class="learnmore" tabindex="0">626-966-5600</a>
                         <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="scheduleonline" tabindex="0">Schedule Online</a>

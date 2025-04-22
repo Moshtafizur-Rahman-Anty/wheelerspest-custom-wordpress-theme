@@ -31,7 +31,7 @@
                             ?>
                         </p>
                         <div class="banner_btn">
-                        <a href="<?php echo esc_url(home_url('/services')); ?>" class="learnmore">Learn More</a>
+                        <a href="<?php echo esc_url(home_url('/services-page')); ?>" class="learnmore">Learn More</a>
 <a href="<?php echo esc_url(home_url('/contact')); ?>" class="scheduleonline">Schedule Online</a>
 
                         </div>
@@ -67,7 +67,7 @@
                             ?>
                         </p>
                         <div class="banner_btn">
-                        <a href="<?php echo esc_url(home_url('/services')); ?>" class="learnmore">Learn More</a>
+                        <a href="<?php echo esc_url(home_url('/services-page')); ?>" class="learnmore">Learn More</a>
                         <a href="<?php echo esc_url(home_url('/contact')); ?>" class="scheduleonline">Schedule Online</a>
                         </div>
                     </div>
@@ -101,7 +101,7 @@
                             ?>
                         </p>
                         <div class="banner_btn">
-                        <a href="<?php echo esc_url(home_url('/services')); ?>" class="learnmore">Learn More</a>
+                        <a href="<?php echo esc_url(home_url('/services-page')); ?>" class="learnmore">Learn More</a>
                         <a href="<?php echo esc_url(home_url('/contact')); ?>" class="scheduleonline">Schedule Online</a>
                         </div>
                     </div>
@@ -192,7 +192,7 @@
     Whether you're a homeowner, business owner, or property manager, pest issues can be persistent and costly. Touchdown Pest Control delivers tailored residential and commercial pest control services to ensure your property stays protected, healthy, and pest-free all year round.
 </p>
             <div class="banner_btn abt_btn">
-            <a href="<?php echo esc_url(home_url('/services')); ?>" class="learnmore">Learn More</a>
+            <a href="<?php echo esc_url(home_url('/services-page'));?>" class="learnmore">Learn More</a>
             <a href="<?php echo esc_url(home_url('/contact')); ?>" class="scheduleonline">Schedule Online</a>
             </div>
         </div>
@@ -266,7 +266,7 @@
 </p>
 
         <div class="banner_btn abt_btn beeremoval_btn">
-        <a href="<?php echo esc_url(home_url('/services')); ?>" class="learnmore">Learn More</a>
+        <a href="<?php echo esc_url(home_url('/bees-wasps-hornets')); ?>" class="learnmore">Learn More</a>
         <a href="<?php echo esc_url(home_url('/contact')); ?>" class="scheduleonline">Schedule Online</a>
         </div>
     </div>
@@ -295,7 +295,7 @@
                 that are customized to the unique challenges of your industry. We work discreetly and efficiently to take care of any pest issues without disrupting your operations. No matter the size or type of property, Wheeler &rsquo;s Pest Control has the experience to handle it all. We use advanced techniques to deliver results that last.&nbsp;
             </p>
             <div class="banner_btn abt_btn">
-            <a href="<?php echo esc_url(home_url('/services')); ?>" class="learnmore">Learn More</a>
+            <a href="<?php echo esc_url(home_url('/residential')); ?>" class="learnmore">Learn More</a>
             <a href="<?php echo esc_url(home_url('/contact')); ?>" class="scheduleonline">Schedule Online</a>
             </div>
         </div>
