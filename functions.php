@@ -105,6 +105,12 @@ add_filter('template_include', function($template) {
             if (file_exists($custom)) return $custom;
         }
 
+        // Custom template for Wildlife Control
+        if ($slug === 'wildlife-control') {
+            $custom = get_theme_file_path('single-services-wildlife-control.php');
+            if (file_exists($custom)) return $custom;
+        }
+
         
 
 

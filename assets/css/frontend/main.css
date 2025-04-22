@@ -2736,7 +2736,7 @@ a.blogdetail_learn:after {
   position: absolute;
   z-index: 9;
   right: 0;
-  background-image: url(../images/commercial/banner_bottom.webp);
+  background-image: url(../../../images/services/banner_bottom.webp);
   background-position: center;
   padding: 3em 4em 3em 10em;
   background-repeat: no-repeat;
@@ -2757,7 +2757,7 @@ a.blogdetail_learn:after {
   height: 110px;
   top: 10px;
   left: 45px;
-  background-image: url("../images/commercial/double.webp");
+  background-image: url("../../../images/services/double.webp");
 }
 .commercial_second_image_inner img {
   width: 100%;
@@ -2789,7 +2789,7 @@ a.blogdetail_learn:after {
   position: absolute;
   width: 95%;
   height: 100%;
-  background-image: url("../images/commercial/background_second.webp");
+  background-image: url("../../../images/services/background_second.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -3943,11 +3943,7 @@ body#mosquitos-control-for-home-and-business .mosquito_first_hle h1 {
 .mosquito_third_inner ul li:before {
   background-image: url(../images/pest/dotsgreen.webp);
 }
-.last_bfre h4,
-.last_bfre p,
-.last_bfre ul li {
-  color: #fff !important;
-}
+
 .last_bfre ul li:before {
   background-image: url(../images/mosquito/dots.webp) !important;
 }
