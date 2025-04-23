@@ -54,9 +54,9 @@ get_header();
                                     </a>
                                     <p>Rodents like rats and mice are more than just a nuisance—they can cause severe property damage, contaminate food, and spread dangerous diseases. Our rodent control services in Southern California are designed to quickly eliminate infestations and prevent future entry. If you’re hearing scratching noises, noticing droppings, or finding gnawed materials, don’t wait. We provide effective rat and mice extermination using proven strategies to protect your home or business.</p>
                                     <div class="banner_btn abt_btn beeremoval_btn">
-                                        <a href="https://wheelerspestcontrol.com/bed-bugs" class="learnmore">Learn More</a>
-                                        <a href="#" class="scheduleonline">Schedule Online</a>
-                                    </div>
+                                        <a href="<?php echo esc_url(home_url('/services/rodents/')); ?>" class="learnmore">Learn More</a>
+                                        <a href="<?php echo esc_url(home_url('/contact')); ?>" class="scheduleonline">Schedule Online</a>
+                                        </div>
                                 </div>
                             </div>
                         </div>
@@ -74,8 +74,8 @@ get_header();
                             <p>Ant infestations can escalate rapidly, especially in kitchens and bathrooms where moisture and food are present. At Touchdown Pest Control, we provide professional ant removal and treatment that targets the colony at its source. Whether you’re dealing with Argentine ants, carpenter ants, or pavement ants, our customized ant control services will help eliminate them effectively and stop them from coming back.</p>
                             <div class="banner_btn abt_btn beeremoval_btn">
                                 <a href="<?php echo esc_url(home_url('/services/ants')); ?>" class="learnmore">Learn More</a>
-                                <a href="#" class="scheduleonline">Schedule Online</a>
-                            </div>
+                                <a href="<?php echo esc_url(home_url('/contact')); ?>" class="scheduleonline">Schedule Online</a>
+                                </div>
                         </div>
                     </div>
                     <div class="col-sm-12 serviceown_thirdsect">
@@ -91,8 +91,8 @@ get_header();
                             <p>Bees, wasps, and hornets can be aggressive and dangerous when nesting near homes or businesses. Our expert bee and wasp removal service ensures safe, humane, and thorough relocation or extermination of hives and nests. We assess the level of threat and implement eco-friendly methods to prevent re-infestation while protecting your family or customers from painful stings and allergic reactions.</p>
                             <div class="banner_btn abt_btn beeremoval_btn">
                                 <a href="<?php echo esc_url(home_url('/services/bees-wasps-hornets')); ?>" class="learnmore">Learn More</a>
-                                <a href="#" class="scheduleonline">Schedule Online</a>
-                            </div>
+                                <a href="<?php echo esc_url(home_url('/contact')); ?>" class="scheduleonline">Schedule Online</a>
+                                </div>
                         </div>
                     </div>
 
@@ -112,8 +112,8 @@ get_header();
                                     <p>Termites silently cause thousands of dollars in structural damage before most homeowners even notice them. Our advanced termite control services include inspection, treatment, and long-term protection for your property. Whether you're a homeowner or managing commercial property, Touchdown Pest Control uses proven solutions to detect, eliminate, and prevent future termite infestations.</p>
                                     <div class="banner_btn abt_btn beeremoval_btn">
                                         <a href="<?php echo esc_url(home_url('/services/termites')); ?>" class="learnmore">Learn More</a>
-                                        <a href="#" class="scheduleonline">Schedule Online</a>
-                                    </div>
+                                        <a href="<?php echo esc_url(home_url('/contact')); ?>" class="scheduleonline">Schedule Online</a>
+                                        </div>
                                 </div>
                             </div>
                         </div>
@@ -134,8 +134,8 @@ get_header();
                             <p>Bed bugs are notoriously difficult to eliminate without professional help. These tiny insects hide in cracks and crevices and come out at night to feed. Our bed bug removal services use cutting-edge technology to detect and exterminate infestations at all life stages. Say goodbye to sleepless nights—our experienced technicians will restore comfort and safety to your home.</p>
                             <div class="banner_btn abt_btn beeremoval_btn">
                                 <a href="<?php echo esc_url(home_url('/services/bed-bugs')); ?>" class="learnmore">Learn More</a>
-                                <a href="#" class="scheduleonline">Schedule Online</a>
-                            </div>
+                                <a href="<?php echo esc_url(home_url('/contact')); ?>" class="scheduleonline">Schedule Online</a>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -158,8 +158,8 @@ get_header();
                                     <p>Wild animals like raccoons, squirrels, and opossums often invade attics, basements, and crawl spaces in search of shelter. Our humane wildlife control services focus on safe trapping, removal, and exclusion techniques to keep your property secure. Prevent structural damage and protect your family from potential health hazards with our professional wildlife management solutions.</p>
                                     <div class="banner_btn abt_btn beeremoval_btn">
                                         <a href="<?php echo esc_url(home_url('/services/wildlife-control')); ?>" class="learnmore">Learn More</a>
-                                        <a href="#" class="scheduleonline">Schedule Online</a>
-                                    </div>
+                                        <a href="<?php echo esc_url(home_url('/contact')); ?>" class="scheduleonline">Schedule Online</a>
+                                        </div>
                                 </div>
                             </div>
                         </div>
@@ -180,8 +180,8 @@ get_header();
                             <p>While most spiders are harmless and even beneficial in gardens, some species can pose serious health risks when found indoors. Touchdown Pest Control offers targeted spider removal and control services that address infestations without harming the ecosystem. Let us help you maintain a safe, spider-free environment in your home or workplace.</p>
                             <div class="banner_btn abt_btn beeremoval_btn">
                                 <a href="<?php echo esc_url(home_url('/services/spiders')); ?>" class="learnmore">Learn More</a>
-                                <a href="#" class="scheduleonline">Schedule Online</a>
-                            </div>
+                                <a href="<?php echo esc_url(home_url('/contact')); ?>" class="scheduleonline">Schedule Online</a>
+                                </div>
                         </div>
                     </div>
 
@@ -201,8 +201,8 @@ get_header();
                             <p>Whether you're dealing with signs of bed bugs or hearing the scurrying of rodents in your attic, pests have a way of invading where they’re least expected. When unwanted intruders show up, trust Touchdown Pest Control for fast, effective pest control services in Winchester, California. Our experienced team ensures your home or business is protected with proven solutions. Many common pests are experts at staying hidden, often establishing infestations long before you notice the signs. By the time droppings, gnaw marks, or strange odors appear, serious damage may already be done. Routine inspections by licensed pest control professionals can help detect early infestations and identify structural vulnerabilities before they escalate.</p>
                             <div class="banner_btn abt_btn beeremoval_btn">
                                 <a href="<?php echo esc_url(home_url('/residential')); ?>" class="learnmore">Learn More</a>
-                                <a href="#" class="scheduleonline">Schedule Online</a>
-                            </div>
+                                <a href="<?php echo esc_url(home_url('/contact')); ?>" class="scheduleonline">Schedule Online</a>
+                                </div>
                         </div>
                     </div>
 
@@ -222,8 +222,8 @@ get_header();
                                     <p>Mosquitoes are more than annoying—they’re carriers of dangerous diseases like West Nile virus and Zika. Our mosquito control treatments reduce breeding sites, treat hotspots, and provide lasting protection for your yard or business property. Reclaim your outdoor space with Touchdown safe and effective mosquito extermination services.</p>
                                     <div class="banner_btn abt_btn beeremoval_btn">
                                         <a href="<?php echo esc_url(home_url('/services/mosquitos')); ?>" class="learnmore">Learn More</a>
-                                        <a href="#" class="scheduleonline">Schedule Online</a>
-                                    </div>
+                                        <a href="<?php echo esc_url(home_url('/contact')); ?>" class="scheduleonline">Schedule Online</a>
+                                        </div>
                                 </div>
                             </div>
                         </div>
@@ -244,8 +244,8 @@ get_header();
                             <p>Cockroaches are resilient, fast breeders, and notorious for spreading bacteria and allergens. At Touchdown Pest Control, we tackle roach infestations with powerful treatments and preventative strategies. Our services are designed to eliminate all hiding spots and breeding grounds, ensuring a clean and safe living environment for your family or employees.</p>
                             <div class="banner_btn abt_btn beeremoval_btn">
                                 <a href="<?php echo esc_url(home_url('/services/roaches')); ?>" class="learnmore">Learn More</a>
-                                <a href="#" class="scheduleonline">Schedule Online</a>
-                            </div>
+                                <a href="<?php echo esc_url(home_url('/contact')); ?>" class="scheduleonline">Schedule Online</a>
+                                </div>
                         </div>
                     </div>
                 </div>

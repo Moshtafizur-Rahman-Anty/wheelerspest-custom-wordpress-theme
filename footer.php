@@ -20,28 +20,27 @@
                                         </p>
                             <ul>
                                 <li>
-                                    <a href="https://www.google.com/maps/place/Wheeler's+pest+Control/@33.60652,-117.11569,15z/data=!4m6!3m5!1s0x80dc8259c6d92ab9:0x7c22a84dbeec82de!8m2!3d33.60652!4d-117.11569!16s%2Fg%2F119tb5jt4?entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D">
+                                    <a href="https://www.google.com/maps/place/1730+W+Cameron+Ave,+West+Covina,+CA+91790,+USA/@34.0697434,-117.9473019,17z/data=!3m1!4b1!4m6!3m5!1s0x80c2d7c885279c19:0xbd049e818bad11cc!8m2!3d34.069739!4d-117.944727!16s%2Fg%2F11q2ng7_zr?entry=ttu&g_ep=EgoyMDI1MDQyMS4wIKXMDSoASAFQAw%3D%3D">
                                         <i class="fa fa-google" aria-hidden="true"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.facebook.com/WheelersPestControl/">
+                                    <a href="https://www.facebook.com/touchdownpestcontrol">
                                         <i class="fa fa-facebook" aria-hidden="true"></i>
                                     </a>
                                 </li>
+                               
                                 <li>
-                                    <a href="https://x.com/wheelerspc">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                            <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                                            <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.instagram.com/wheelers_pest_control/">
+                                    <a href="https://www.instagram.com/touchdownpestcontrol/">
                                         <i class="fa fa-instagram" aria-hidden="true"></i>
                                     </a>
                                 </li>
+                                <li>
+    <a href="https://www.linkedin.com/company/touchdown-pest-control/">
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </a>
+</li>
+
                             </ul>
                         </div>
                     </div>
