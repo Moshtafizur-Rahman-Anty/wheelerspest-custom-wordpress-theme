@@ -36,20 +36,39 @@
         </div>
     </div>
 </div>
+<div class="mosquitoes_overall blogdetailpage" style="padding: 80px 0; background-color: #f4f6f8;">
+    <div class="container" style="max-width: 1280px; margin: 0 auto; padding: 0 24px;">
+        <div class="row" data-aos="fade-up" style="display: flex; justify-content: center;">
 
-<div class="mosquitoes_overall blogdetailpage">
-    <div class="col-sm-12 blogdetail_contentsection" data-aos="fade-up">
-        <div class="container">
-            <div class="col-sm-12 blogdetail_sidebar">
-                <!-- Optional: Include sidebar widgets or dynamic fields -->
-            </div>
+            <!-- Main Content -->
+            <main class="col-lg-8" style="flex: 0 0 100%; max-width: 1100px;">
+                <div style="
+                    background-color: #ffffff;
+                    padding: 50px 40px;
+                    border-radius: 20px;
+                    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+                    transition: all 0.3s ease-in-out;
+                ">
+                    <div class="first_content" style="
+                        font-family: 'Inter', 'Segoe UI', sans-serif;
+                        font-size: 20px;
+                        color: #2e2e2e;
+                        line-height: 1.8;
+                        letter-spacing: 0.3px;
+                        word-break: break-word;
+                    ">
+                        <?php the_content(); ?>
+                    </div>
+                </div>
+            </main>
 
-            <div class="first_content" data-aos="fade-up">
-                <?php the_content(); ?>
-            </div>
         </div>
     </div>
 </div>
+
+
+
+
 
 <?php endwhile; else : ?>
     <div class="container">
@@ -59,7 +78,7 @@
 <?php endif; ?>
 
 <br><br><hr><br>
-<br>
+<br><br><br><br>
         
             
 

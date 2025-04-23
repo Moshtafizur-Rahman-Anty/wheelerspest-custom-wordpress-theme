@@ -27,7 +27,7 @@ get_header();
                         <div class="col-sm-5 banner_innerpage_content">
                             <div class="banner_innerpage_contentinner">
                             <div><?php the_title(); ?></div>
-                            <p>We are dedicated to providing comprehensive and effective pest control solutions tailored to your specific needs</p>
+                            <p>We’re committed to delivering effective, tailored pest control—with a smart game plan built around your property</p>
                                 <div class="banner_btn innerpagebtn">
                                 <a href="tel:626-966-5600" class="learnmore" tabindex="0">626-966-5600</a>
                                 <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="scheduleonline" tabindex="0">Schedule Online</a>

@@ -28,7 +28,8 @@ get_header();
                         <div class="col-sm-5 banner_innerpage_content">
                             <div class="banner_innerpage_contentinner">
                                 <div>BLogs</div>
-                                <p>We have the most up-to-date and relevant content to help you maintain a pest-free environment</p>
+                                <p>Stay ahead of the pests with expert tips and insights from the Touchdown playbook—your guide to a pest-free environment.
+</p>
                               
                             </div>
                         </div>
@@ -54,7 +55,7 @@ get_header();
                 if ($all_posts->have_posts()) :
                     $count = 0;
                     while ($all_posts->have_posts()) : $all_posts->the_post();
-                        $thumb = get_the_post_thumbnail_url(get_the_ID(), 'medium');
+                        $thumb = get_the_post_thumbnail_url(get_the_ID(), 'full');
                         $link = get_permalink();
                         $title = get_the_title();
                         $excerpt = get_the_excerpt();

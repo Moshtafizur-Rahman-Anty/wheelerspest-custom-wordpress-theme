@@ -8136,6 +8136,299 @@ body#pest-control-company-temecula-ca
   text-align: center;
 }
 
+.contctmap_inner .gmap_canvas, .contctmap_inner .mapouter {
+  height: 478px !important;
+}
+
+
+.contactusown_right_inner {
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+
+.contactusown_right_inner h4 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.wpcf7-form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.wpcf7-form input[type="text"],
+.wpcf7-form input[type="email"],
+.wpcf7-form textarea {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.wpcf7-form textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.wpcf7-submit {
+  background-color: #ffffff;
+  color: #006644;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.wpcf7-submit:hover {
+  background-color: #eeeeee;
+}
+
+
+
+
+
+.wpcf7-form input[type="text"],
+.wpcf7-form input[type="email"],
+.wpcf7-form input[type="tel"] {
+    width: 100%;
+}
+
+.contactusown_right_inner {
+  padding: 40px 30px;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.wpcf7-form input,
+.wpcf7-form textarea {
+    margin-bottom: 15px;
+}
+
+
+.wpcf7-form input,
+.wpcf7-form textarea {
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.1);
+}
+
+
+.contactusown_right_inner {
+  padding-top: 60px; /* bump this up so "SEND US A MESSAGE!" isn't hidden */
+}
+
+.wpcf7-submit {
+  background-color: #ffffff;
+  color: #20994d;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 10px 24px;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
+
+.wpcf7-submit:hover {
+  background-color: #f0f0f0;
+}
+
+.contactusown_right_inner h4 {
+  text-align: center;
+}
+
+.wpcf7-submit {
+  display: block;
+  margin: 20px auto 0;
+}
+
+.contactusown_right_inner h4 {
+  text-align: center;
+}
+
+.wpcf7-submit {
+  display: block;
+  margin: 20px auto 0;
+}
+
+.contactusown_right_inner {
+  padding-top: 80px; /* increase from previous 60px */
+}
+
+.wpcf7-form input,
+.wpcf7-form textarea {
+    margin-bottom: 12px; /* tighten up slightly */
+}
+
+.wpcf7-form label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.wpcf7-submit:hover {
+  background-color: #e6e6e6;
+  color: #006644;
+}
+
+
+
+
+
+
+/* Set text color to black inside textarea */
+.wpcf7-form textarea {
+  color: #000000;
+}
+
+/* Increase border-radius for all fields */
+.wpcf7-form input[type="text"],
+.wpcf7-form input[type="email"],
+.wpcf7-form input[type="tel"],
+.wpcf7-form textarea {
+  border-radius: 8px; /* increased from 4px */
+}
+
+
+
+.wpcf7-form input[type="tel"] {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 14px;
+  border-radius: 8px; /* match other inputs */
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+/* Input and textarea text */
+.wpcf7-form input,
+.wpcf7-form textarea {
+    color: #000000 !important;
+}
+
+/* Placeholder text */
+.wpcf7-form input::placeholder,
+.wpcf7-form textarea::placeholder {
+    color: #000000 !important;
+    opacity: 1; /* ensure it's fully visible */
+}
+
+/* For cross-browser compatibility */
+.wpcf7-form input::-webkit-input-placeholder,
+.wpcf7-form textarea::-webkit-input-placeholder {
+    color: #000000 !important;
+}
+
+.wpcf7-form input:-moz-placeholder,
+.wpcf7-form textarea:-moz-placeholder {
+    color: #000000 !important;
+    opacity: 1;
+}
+
+.wpcf7-form input::-moz-placeholder,
+.wpcf7-form textarea::-moz-placeholder {
+    color: #000000 !important;
+    opacity: 1;
+}
+
+/* Error message styling */
+.wpcf7 form .wpcf7-response-output {
+  background-color: #ffe9e9;
+  color: #cc0000;
+  border: 1px solid #cc0000;
+  padding: 12px 18px;
+  margin-top: 20px;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.wpcf7-response-output {
+  max-width: 100%;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+/* Add more bottom padding to the form wrapper */
+.contactusown_right_inner {
+  padding-bottom: 80px; /* increase from previous value */
+  position: relative;
+}
+
+/* Ensure response message is not clipped */
+.wpcf7 form .wpcf7-response-output {
+  position: relative;
+  z-index: 1;
+  display: block;
+  background-color: #ffe9e9;
+  color: #cc0000;
+  border: 1px solid #cc0000;
+  padding: 12px 18px;
+  margin-top: 20px;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.contactusown_right {
+  overflow: visible;
+}
+
+/* Style both error and success messages with matching layout */
+.wpcf7 form .wpcf7-response-output {
+  position: relative;
+  z-index: 2;
+  display: block;
+  max-width: 90%;
+  margin: 20px auto 0;
+  padding: 14px 18px;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Success message (sent) */
+.wpcf7-form.sent .wpcf7-response-output {
+  background-color: #e6f8ed;
+  border: 1px solid #20994d;
+  color: #20994d;
+}
+
+/* Error message (validation failed) */
+.wpcf7-form.invalid .wpcf7-response-output {
+  background-color: #ffe9e9;
+  border: 1px solid #cc0000;
+  color: #cc0000;
+}
+
+.contactusown_right_inner {
+  padding-bottom: 120px !important;
+}
+
+.contactusown_right_inner {
+  padding-top: 114px;
+}
+
+
+
+
 
 
 

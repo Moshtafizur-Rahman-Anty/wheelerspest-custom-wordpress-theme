@@ -92,14 +92,10 @@
                             </div>
 
                             <!-- Login -->
-                            <div class="col-sm-1 header_login">
-                                <a href="https://wheelerspestcontrol.myserviceaccount.com/login">Login</a>
-                            </div>
+                    
 
                             <!-- Phone -->
-                            <div class="col-sm-1 header_phne">
-                                <a href="tel:951-681-2847">951-681-2847</a>
-                            </div>
+                    
 
                         </div> <!-- /.row -->
                     </div> <!-- /.col-sm-10 -->

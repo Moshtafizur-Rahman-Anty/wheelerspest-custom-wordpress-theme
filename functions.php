@@ -115,6 +115,11 @@ add_filter('template_include', function($template) {
             $custom = get_theme_file_path('single-services-fleas.php');
             if (file_exists($custom)) return $custom;
         }
+        if ($slug === 'rodents') {
+            $custom = get_theme_file_path('single-services-rodents.php');
+            if (file_exists($custom)) return $custom;
+        }
+        
 
         
 

@@ -184,10 +184,12 @@
                     </a>
                 </div>
             </div>
-            <h1>Expert Pest Control Services for Homes & Businesses</h1>
+            <h1>Strategic Pest Control for Homes & Businesses
+            </h1>
 <p>
-    Unwanted pests can lead to serious property damage and pose health risks to your family, employees, or tenants. At Touchdown Pest Control, we provide <a href="/pest-control-company-del-mar-ca">reliable pest control solutions</a> designed to eliminate a wide range of infestations, including ants, rodents, spiders, and more. Our process starts with a detailed inspection to accurately identify pest activity and assess the severity of the problem. From there, we craft a customized treatment strategy that targets pests at their source using proven and modern methods. We also offer <a href="/pest-control-company-encinitas-ca">preventive pest management services</a> to resolve root causes and stop infestations before they start.
+Pests don’t stand a chance when you’ve got the right team in your corner. At Touchdown Pest Control, we take a playbook-style approach to pest management—combining expert strategy, strong defense, and quick execution.
 </p>
+<p>From ants and rodents to spiders and termites, we tackle infestations head-on using eco-conscious treatments and targeted solutions. It all starts with a detailed inspection, followed by a custom treatment plan built to shut pests down at the source.</p>
 <p>
     Whether you're a homeowner, business owner, or property manager, pest issues can be persistent and costly. Touchdown Pest Control delivers tailored residential and commercial pest control services to ensure your property stays protected, healthy, and pest-free all year round.
 </p>
@@ -205,7 +207,7 @@
     <div class="col-sm-12 service_hme_hle">
         <div class="container">
             <div class="col-sm-12 service_hme_title couponshme_title">
-                <h2>CHOOSE THE SERVICE THAT WORKS FOR YOU!</h2>
+                <h2>Pick Your Game Plan</h2> <h2>Choose the Right Service</h2>
             </div>
             <div class="col-sm-12 service_hme_slic">
 
@@ -257,13 +259,14 @@
                 </a>
             </div>
         </div>
-        <h2>BEE REMOVAL AND CONTROL SERVICES YOU CAN TRUST</h2>
+        <h2>Bee Defense You Can Rely</h2>
 <p>
-    Bees play a vital role in pollination, but when they establish hives near your home or business, they can pose serious safety risks. Whether you're dealing with a newly formed swarm or an active hive that's too close for comfort, Touchdown Pest Control provides expert <a href="/pest-control-company-carlsbad-ca">bee removal and hive control services</a> tailored to your needs. We understand the importance of humane, effective solutions.
+Even the best teams need a solid defense—and when bees swarm too close to home, Touchdown Pest Control is ready to suit up. Whether it's a newly formed hive or a full-blown colony taking over your space, we bring strategy, precision, and control to the field.
 </p>
 <p>
-    Our certified technicians specialize in safe and environmentally responsible bee control. Whenever possible, we prioritize relocation over extermination to protect both your property and the local ecosystem. Our process begins with a detailed site inspection to identify the hive's location and determine the best removal strategy. Depending on the severity and placement, we may utilize advanced equipment or collaborate with licensed beekeepers to ensure a smooth and safe relocation. If removal isn't viable, we implement long-term exclusion techniques to prevent future infestations. Don’t let a bee infestation threaten your space—contact us today for safe, efficient bee control.
+Our certified technicians prioritize safe, eco-friendly solutions. Whenever possible, we go for relocation over extermination—protecting your property and the environment. We begin with a thorough inspection, then execute the best game plan using advanced tools or working with local beekeepers. If relocation isn’t an option, we apply long-term exclusion methods to prevent future swarms.
 </p>
+<p>Protect your space with the kind of defense that wins every time—schedule your bee control service today.</p>
 
         <div class="banner_btn abt_btn beeremoval_btn">
         <a href="<?php echo esc_url(home_url('/bees-wasps-hornets')); ?>" class="learnmore">Learn More</a>
@@ -287,13 +290,12 @@
             </div>
             <h2>RESIDENTIAL &amp;COMMERCIAL PEST SERVICES</h2>
             <p>
-                For homeowners, <a href="/pest-control-company-lake-elsinore-ca">our pest control services</a>
-                are designed to protect your family and your investment. We understand that your home is your sanctuary, and we work hard to keep it free from pests that could cause damage or spread disease. Our residential services include everything from one-time treatments to ongoing maintenance plans, so you can choose the appropriate level of protection that suits your needs.
+            At Touchdown Pest Control, we know that a strong defense starts at home. Our residential pest control services are built to protect both your family and your investment. Whether you need a one-time treatment or a year-round maintenance plan, we help keep your sanctuary pest-free with solutions tailored to your lifestyle.
             </p>
             <p>
-                For businesses, pests can affect your bottom line. Whether it &rsquo;s a restaurant, office, warehouse, or retail store, maintaining a pest-free environment is critical to your reputation and compliance with health regulations. Wheeler &rsquo;s Pest Control provides <a href="/pest-control-company-menifee-ca">commercial pest services</a>
-                that are customized to the unique challenges of your industry. We work discreetly and efficiently to take care of any pest issues without disrupting your operations. No matter the size or type of property, Wheeler &rsquo;s Pest Control has the experience to handle it all. We use advanced techniques to deliver results that last.&nbsp;
+            For businesses, pests can interfere with operations, safety, and reputation. From restaurants and offices to warehouses and retail spaces, we offer commercial pest services designed to meet the unique demands of your industry. Our team works discreetly, efficiently, and with the precision of a well-coached unit—so your business stays protected and compliant, without missing a beat.
             </p>
+            <p>No matter the property size, we bring a game-ready strategy and proven tools to keep pests off your field—for good.</p>
             <div class="banner_btn abt_btn">
             <a href="<?php echo esc_url(home_url('/residential')); ?>" class="learnmore">Learn More</a>
             <a href="<?php echo esc_url(home_url('/contact')); ?>" class="scheduleonline">Schedule Online</a>

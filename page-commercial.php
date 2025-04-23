@@ -25,7 +25,9 @@ get_header();
                 <div class="banner_innerpage_contentinner">
                     <div>Commercial
                     </div>
-                    <p>Touchdown Pest Control delivers dependable commercial pest control solutions to safeguard your business. Keep your property protected from common pests like rats, mice, roaches, and more with our trusted expertise.</p>
+                    <p>Touchdown Pest Control brings dependable commercial pest control solutions that protect your business with precision. From roaches to rodents, our team runs a proven playbook to keep your property pest-free and game-day ready.
+
+</p>
                     <div class="banner_btn innerpagebtn">
                         <a href="tel:951-681-2847" class="learnmore" tabindex="0">951-681-2847</a>
                         <a href="contact" class="scheduleonline" tabindex="0">Schedule Online</a>
@@ -47,18 +49,19 @@ get_header();
                 </div>
             </div>
             <div class="first_content">
-                <h1>Reliable Commercial Pest Control for Every Industry</h1>
-                <p>Whether you operate a restaurant, warehouse, retail shop, or office space, pest activity can quickly disrupt operations and damage your reputation. At Touchdown Pest Control, we specialize in tailored commercial pest control solutions that safeguard your business from unwanted invaders. Learn how our proactive services help you remain compliant and pest-free year-round.</p>
+                <h1>Commercial Pest Control That’s Always Game-Ready
+                </h1>
+                <p>Whether you run a restaurant, warehouse, retail space, or office, pest activity can sideline your operations fast. At Touchdown Pest Control, we build tailored commercial pest control strategies that protect your property and reputation—keeping your business compliant, clean, and pest-free all year.</p>
             </div>
             <div class="second_content">
-                <h3>Why Reputation Protection Starts with Professional Pest Control</h3>
+                <h3>Why a Strong Defense Is Key to Reputation Protection</h3>
                 <p>
-                    A single pest sighting—whether it's a rodent in a stockroom or a cockroach in a dining area—can tarnish your brand image and trigger a flood of negative online reviews. Touchdown Pest Control delivers routine inspections and preventative treatments to stop infestations before they start. Our customized plans ensure your business maintains a clean, pest-free environment that impresses customers and passes every health inspection.
+                One rodent in the stockroom or a single cockroach near customers can damage more than just your image—it can lead to lost business and bad reviews. That’s why we deliver routine inspections, proactive treatments, and a pest control game plan customized for your space. With Touchdown Pest on your team, your business stays ready for every customer—and every health inspection.
                 </p>
             </div>
             <div class="col-sm-8 commercial_firstblckimp">
                 <div class="commercial_firstblckimp_inner">
-                    <p>Get in touch with Touchdown Pest Control today for dependable commercial pest services in your area.</p>
+                    <p>Get in touch today to schedule commercial pest services that protect your brand like a seasoned defense</p>
                 </div>
             </div>
         </div>
@@ -143,13 +146,13 @@ get_header();
                     <img src="<?php echo get_template_directory_uri(); ?>/images/services/commertial-last.png" alt="Commercial Pest Control Inspection">
                 </div>
             </div>
-            <h3>Why Ongoing Pest Control Maintenance Matters for Your Business</h3>
+            <h3>Why Ongoing Pest Control Maintenance Is a Smart Play</h3>
             <p>
-                One-time pest treatments may resolve current issues, but they don’t stop pests from coming back. That’s why Touchdown Pest Control offers <a href="/pest-control-company-del-mar-ca">scheduled maintenance services</a> designed to provide year-round protection. With regular inspections and preventative treatments, you’ll avoid surprises and keep your facility consistently pest-free.
+            A one-time treatment might stop today’s problem—but it won’t stop pests from making a comeback. That’s why Touchdown Pest Control offers scheduled maintenance plans built for long-term defense. With regular inspections and proactive treatments, we help you stay ahead of the game and avoid costly surprises.
             </p>
             <div class="last_bfre">
                 <p>
-                    Businesses in pest-prone areas—or industries like hospitality, food service, and storage—are at higher risk for infestations. <a href="/pest-control-company-encinitas-ca">Routine pest control plans</a> allow for early detection and intervention, preventing costly damage and downtime. Our proactive strategies build a strong defense around your property, minimizing pest access and keeping your workspace safe, sanitary, and professionally maintained.
+                    Businesses in pest-prone areas—or industries like hospitality, food service, and storage—are at higher risk for infestations. Routine pest control plans allow for early detection and intervention, preventing costly damage and downtime. Our proactive strategies build a strong defense around your property, minimizing pest access and keeping your workspace safe, sanitary, and professionally maintained.
                 </p>
             </div>
         </div>

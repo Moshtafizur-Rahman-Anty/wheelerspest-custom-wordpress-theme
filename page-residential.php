@@ -24,7 +24,7 @@ get_header();
             <div class="col-sm-5 banner_innerpage_content servicedetail_banner">
                 <div class="banner_innerpage_contentinner">
                 <div>Residential</div>
-<p>Touchdown Pest Control provides reliable residential pest control services to keep your home safe and pest-free. Whether you're dealing with ants, spiders, rodents, or other unwanted guests, our expert team ensures effective, family-safe solutions tailored for your living space.</p>
+<p>Touchdown Pest Control provides reliable residential pest control with a game plan built around your home. Whether it’s ants, spiders, or rodents, our team delivers family-safe, effective solutions that keep your space protected and pest-free—season after season.</p>
 
                     <div class="banner_btn innerpagebtn">
                         <a href="tel:951-681-2847" class="learnmore" tabindex="0">951-681-2847</a>
@@ -49,17 +49,21 @@ get_header();
                 <div class="first_content">
                     <h1>Residential Pest Control Services</h1>
                     <p>
-                        A pest-free home is essential for the safety and well-being of your family. At <a href="#">Touchdown Pest Control</a>, we specialize in residential pest control solutions tailored to your home’s unique needs. Whether you're dealing with ants in the kitchen, rodents in the attic, or mosquitoes in the backyard, our proven treatments will restore peace and comfort indoors and out.
+                    A pest-free home is the foundation of a safe, healthy household. At Touchdown Pest Control, we approach each home like it’s game day—bringing proven strategy, top-tier execution, and a strong defensive plan tailored to your space. Whether it’s ants in the kitchen, rodents in the attic, or mosquitoes in the backyard, we help restore comfort, control, and peace of mind—indoors and out.
                     </p>
                 </div>
                 <div class="second_content">
                     <h3>Why Choose Touchdown Pest Control for Your Home</h3>
-                    <p>Our residential services go beyond just spraying. We combine expert inspections, targeted treatments, and long-term prevention to give you complete protection. Here’s why homeowners trust us:</p>
+                    <p>We don’t just spray and go. Our residential services are built like a winning playbook—combining expert inspections, targeted treatments, and long-term prevention. Here’s what sets us apart:
+
+</p>
                     <ul>
                         <li><strong>Customized Solutions:</strong> Every home is different. We assess your property to create a treatment plan specific to your pest issues.</li>
                         <li><strong>Safe for Family & Pets:</strong> We use eco-friendly products and advanced techniques that are tough on pests but safe around your loved ones.</li>
                         <li><strong>Comprehensive Protection:</strong> From ants and spiders to rodents and termites, we’ve got every corner of your property covered.</li>
-                        <li><strong>Long-Term Prevention:</strong> Our proactive approach prevents re-infestations, giving you lasting peace of mind.</li>
+                        <li><strong>Built for Long-Term Defense:</strong> Our proactive plans stop pests before they return, giving you year-round peace of mind.
+
+</li>
                     </ul>
                 </div>
             </div>
@@ -161,11 +165,11 @@ get_header();
            
             <h3>Protect Your Family, Home, and Peace of Mind</h3>
             <p>
-                A pest-free home isn’t just more comfortable—it’s safer and healthier too. With Touchdown Pest Control’s <a href="/pest-control-company-west-covina-ca">residential treatment plans</a>, you can stop worrying about infestations that threaten your family’s well-being or damage your home. We focus on both immediate relief and long-term prevention.
+            A pest-free home isn’t just more comfortable—it’s your first line of defense for health and safety. With Touchdown Pest Control’s residential treatment plans, you’ll get more than a quick fix. We deliver immediate relief backed by long-term prevention—so you can stop worrying and stay focused on what matters most.
             </p>
             <div class="last_bfre">
                 <p>
-                    Our experienced technicians understand how pests invade homes and where they hide. That’s why we use targeted, family-safe treatments that reach deep into walls, attics, basements, and outdoor zones. Whether it’s ants in your kitchen or rodents in the attic, we’re here to protect your home from top to bottom—all year long.
+                Our experienced technicians know how pests invade, where they hide, and how to shut them down. Using targeted, family-safe treatments, we cover every zone—inside walls, in attics, basements, and outdoor areas too. Whether it’s ants in the kitchen or rodents trying to score in the attic, we’re here to protect your home from top to bottom—all year long.
                 </p>
             </div>
         </div>
