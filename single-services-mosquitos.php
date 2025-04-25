@@ -178,6 +178,20 @@ get_header();
 
 
 
+<div class="pestcontrolown_services" data-aos="fade-up">
+    <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <br>
+        <div class="col-sm-12 pestcontrolown_hle">
+            <div class="col-sm-12 first_content">
+                <?php echo do_shortcode('
+[WPSM_AC id=9796]') ?>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
 
 
 

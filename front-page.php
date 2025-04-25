@@ -326,8 +326,8 @@ Our certified technicians prioritize safe, eco-friendly solutions. Whenever poss
                         $date_day = get_the_date('d');
                         $date_month = get_the_date('M');
                         ?>
-                        <div class="col-sm-4 bloghme_single" data-aos="zoom-in">
-                            <div class="bloghme_single_inner">
+<div class="col-12 col-sm-6 col-md-4 bloghme_single" data-aos="zoom-in">
+<div class="bloghme_single_inner">
                                 <div class="bloghme_single_image">
                                     <?php if (has_post_thumbnail()): ?>
                                         <a href="<?php the_permalink(); ?>">
